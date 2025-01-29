@@ -74,13 +74,8 @@ Una vez configurado el usuario local, empezaremos a trabajar desde la terminal. 
 - pwd \= por ejemplo como ya estamos en \[documents\] este comando nos tiene que mostrar dicha ruta.
 
 Lo siguiente se puede ver en las siguientes figuras:  
-![pwd y ls](C:/Users/UNAM/Documents/env_data_analysis_course/figuras/pwd_y_ls.jpg)
-
-
-
-
-Figura \-pwd y ls-  
-Figura \-cd ls pwd-
+![pwd y ls](/figuras/pwd_y_ls.jpg)
+![cd ls pwd](/figuras/cd_ls_pwd.PNG)
 
 ***Nota: en este momento al ya haber ingresado comandos, con las flechas del teclado podemos utilizar algún comando previamente utilizado***.
 
@@ -88,14 +83,13 @@ Una vez familiarizado con estos comandos, empezaremos a trabajar, por lo tanto r
 
 - mkdir \[nombre de la carpeta que queremos crear\]
 
-
 La carpeta ha sido creada, por lo que para verificarlo, utilizaremos los siguientes comandos:
 
 - ls \=podemos ver que la carpeta fue creada en la ruta en la cual estábamos trabajando.  
 - cd \[el nombre de la carpeta\] \= esto para adentrarnos en la carpeta que previamente hemos creado.
 
-Como se puede ver en el ejemplo.  
-Figura \-pwd mkdir cd-
+Como se puede ver en el ejemplo:
+![pwd mkdir cd](/figuras/pwd%20mkdir%20cd.PNG)
 
 ***Nota: si escribimos el inicio del archivo y  le damos en el tabulador, nos mostrará las opciones con las cuales puede completar el comando que necesitamos***
 
@@ -111,7 +105,8 @@ Se realiza con el comando touch (en este caso el nombre del archivo con su exten
 Así ya hemos creado un archivo de código en python, por lo cual si revisamos nuestra carpeta, ya ha sido creado un archivo.
 
 Como se puede ver en la figura:  
-Figura \-touch ls-  
+![touch_ls](/figuras/touch_ls.PNG)
+
 Pero como queremos tener un control de las versiones de código que trabajemos, iniciaremos un repositorio en nuestra carpeta, por lo cual pondremos el comando:
 
 - git init
@@ -122,11 +117,12 @@ y nos mostrará lo siguiente como se puede ver en la siguiente figura:
 
 Que nos indica que actualmente el repositorio se inició pero está vacío y así mismo la ruta en donde este está guardado. Ahora ya podremos trabajar con el control de versiones.
 
-Figura \-git init-
+![git_init](/figuras/git_init.PNG)
 
-Cuando se trabaja con Git, es importante el concepto de repository: el cual comprende toda la colección de archivos y carpetas asociados con un proyecto, en conjunto con el historial de revisión de cada archivo\*\* 
+***Cuando se trabaja con Git, es importante el concepto de repository: el cual comprende toda la colección de archivos y carpetas asociados con un proyecto, en conjunto con el historial de revisión de cada archivo***.
 
-Nota: Estamos en una trabajando localmente pero es denominado como master y en el cual tambien se podrá trabajar por branch "brazos/ramificaciones de este mismo trabajo".  
+*Nota: Estamos en una trabajando localmente pero es denominado como master y en el cual tambien se podrá trabajar por branch "brazos/ramificaciones de este mismo trabajo"*. 
+ 
 Podemos renombrar este master, si es que así lo deseamos.
 
 git branch \-m "nombre del nuevo master; en este caso master\_miranda"

@@ -74,7 +74,7 @@ Una vez configurado el usuario local, empezaremos a trabajar desde la terminal. 
 - pwd \= por ejemplo como ya estamos en \[documents\] este comando nos tiene que mostrar dicha ruta.
 
 Lo siguiente se puede ver en las siguientes figuras:  
-![pwd y ls](C:/Users/UNAM/Documents/env_data_analysis_course/figuras/pwd_y_ls.png)
+![pwd y ls](C:/Users/UNAM/Documents/env_data_analysis_course/figuras/pwd_y_ls.jpg)
 
 
 

@@ -4,7 +4,7 @@
 
 ## *Nota: Git y Github son dos herramientas diferentes.*
 
-Git: Es un software que está ya incluido para modelos linux y mac (en su mayoría) para Windows es necesaria una previa descarga de este software. Una vez descargado para el sistema operativo de su preferencia *todos los comandos y el funcionamiento de este es el mismo.*
+Git: Es un software que está ya incluido para modelos linux y mac (en su mayoría). Por lo que para Windows es necesaria una previa descarga de este software. Una vez descargado para el sistema operativo de su preferencia *todos los comandos y el funcionamiento de este es el mismo.*
 
 **Git funciona como una memoria de código.** Teniendo un funcionamiento similar a una memoria de juegos donde conforme avance el juego, aunque pierdas una vida, no se borra tu proceso. Mencionando que esto es solo local en tu computadora. ***Siendo este un control de versiones, que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, con el objetivo de poder recuperar/mantener versiones específicas.***
 
@@ -12,15 +12,13 @@ Git: Es un software que está ya incluido para modelos linux y mac (en su mayor�
 
 - click: [https://git-scm.com/](https://git-scm.com/) *Nota: Descargar una versión de acuerdo a su sistema operativo*.
 
-Es importante mencionar que se puede trabajar con Git desde la terminal del sistema (Git Bash para Windows) o desde una herramienta de gráfica, que se explicará más adelante en el manual..
+## Primeros pasos en Git.
 
-***Nota: una de las mejores maneras de entender git es desde la terminal, ya que ayuda a una visualización de que es lo que hace Git cada que efectuamos un cambio***.
+Para el manejo de Git existen varias vertientes pero en este manual estaremos visualizando sólo dos, las cuales serán el uso de terminal por medio de Git Bash y el uso de una herramienta gráfica, como en este caso será el uso de Visual Studio Code.
 
-### Primeros pasos en Git.
+***Nota: una de las mejores maneras de entender Git es desde la terminal, ya que ayuda a una visualización de los cambios que son efectuados***.
 
-Para el manejo de Git existen varias vertientes pero en este manual estaremos visualizando sólo dos, las cuales serán el uso de terminal por medio de Git Bash y el uso de una herramienta gráfica, como en este caso será el uso de Visual Studio Code .
-
-### En terminal 
+## En terminal 
 
 Para comenzar a trabajar en terminal, hay que entrar en **Git Bash.**  
 Como primer paso,para saber que ya se instalo correctamente Git, pondremos los comandos:
@@ -76,6 +74,11 @@ Una vez configurado el usuario local, empezaremos a trabajar desde la terminal. 
 - pwd \= por ejemplo como ya estamos en \[documents\] este comando nos tiene que mostrar dicha ruta.
 
 Lo siguiente se puede ver en las siguientes figuras:  
+![pwd y ls](C:/Users/UNAM/Documents/env_data_analysis_course/figuras/pwd_y_ls.png)
+
+
+
+
 Figura \-pwd y ls-  
 Figura \-cd ls pwd-
 

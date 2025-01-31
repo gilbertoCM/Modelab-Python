@@ -125,7 +125,7 @@ Que nos indica que actualmente el repositorio se inició pero está vacío y as�
 
 ***Cuando se trabaja con Git, es importante el concepto de repository: el cual comprende toda la colección de archivos y carpetas asociados con un proyecto, en conjunto con el historial de revisión de cada archivo***.
 
-*Nota: Estamos en una trabajando localmente pero es denominado como master y en el cual tambien se podrá trabajar por branch "brazos/ramificaciones de este mismo trabajo"*. 
+*Nota: Estamos en una trabajando localmente pero es denominado como master y en el cual tambien se podrá trabajar por branch "brazos/ramificaciones de este mismo trabajo"* 
 
 Podemos renombrar este master, si es que así lo deseamos.
 
@@ -157,8 +157,7 @@ Antes de guardar nuestro archivo lo abriremos desde la consola, para poder traba
 - code= (abre nuestra herramienta gráfica en este caso Visual Studio Code, si es que ya esta previamente instalado)   
 - code .= (abre nuestra herramienta gráfica en este caso Visual Studio Code, si es que ya esta previamente instalado, pero con acceso rápido a la carpeta que previamente habíamos creado).
 
-Una vez abierto VSC, podremos ejecutar algo sencillo como la siguiente linea
-Crear un jupyter e ejecutar un linea de python con: 
+Una vez abierto VSC, podremos ejecutar algo sencillo como la siguiente linea:
 - print ("hola a todos")
 Para correr esa línea de código (shift+enter).
 Como podemos ver en la siguiente figura:
@@ -197,7 +196,7 @@ Como puede ver el la siguiente figura:
 
 Visual Studio Code es una herramienta gráfica que nos permite de manejar Git de una manera simple.  
 Para descargar VScode:  
--click en https://code.visualstudio.com/
+- click en https://code.visualstudio.com/
 
 El primer paso para utilizar VScode y Git juntos, es tener una carpeta previamente destinada que será la que utilicemos para realizar nuestro repositorio, por lo que abriremos VScode y realizaremos los siguientes pasos:
 - open folder   

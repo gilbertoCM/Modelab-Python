@@ -29,25 +29,25 @@ Como primer paso,para saber que ya se instalo correctamente Git, pondremos los c
 
 A continuación se mostrarán algunos de los comandos más utilizados en Git:
 
-- git init  \=iniciar un proyecto para usar Git.  
-- git add . \=se guardan todos los cambios que se hayan realizado.  
-- git add \[filename\] \=es para guardar el archivo nombrado.  
-- git commit-m 'mensaje' \=guarda los cambios, con un mensaje que nos deberá indicar generalmente qué cambios se realizaron.  
-- pwd \=muestra la ruta en la cual estamos trabajando.  
-- git status \= se utiliza para obtener un resumen del estado actual del repositorio. Es una herramienta clave para entender qué está pasando en tu proyecto y qué cambios necesitas manejar.  
-- ls \=muestra el contenido del folder en donde estamos.  
-- mkdir \[nombre\] \=crear una carpeta.  
-- cd \[nombre\] \=te lleva al archivo/carpeta determinado.   
-- cd .. \= te regresa al folder/archivo anterior.  
-- clear \=limpia la pantalla de todos los comandos que se han puesto previamente.
+- git init  =iniciar un proyecto para usar Git.  
+- git add . =se guardan todos los cambios que se hayan realizado.  
+- git add [filename] =es para guardar el archivo nombrado.  
+- git commit-m 'mensaje' =guarda los cambios, con un mensaje que nos deberá indicar generalmente qué cambios se realizaron.  
+- pwd =muestra la ruta en la cual estamos trabajando.  
+- git status = se utiliza para obtener un resumen del estado actual del repositorio. Es una herramienta clave para entender qué está pasando en tu proyecto y qué cambios necesitas manejar.  
+- ls =muestra el contenido del folder en donde estamos.  
+- mkdir [nombre] =crear una carpeta.  
+- cd [nombre] =te lleva al archivo/carpeta determinado.   
+- cd .. = te regresa al folder/archivo anterior.  
+- clear =limpia la pantalla de todos los comandos que se han puesto previamente.
 
 Como siguiente paso, visualizamos en que versión de Git estaremos trabajando:
 
-- git \--version
+- git --version
 
 Otra manera poder de ver que versión tenemos, es con el comando :
 
-- git \-v
+- git -v
 
 Y con esto nos mostrará la versión que fue instalada.
 
@@ -55,40 +55,43 @@ Para seguir en la correcta utilización de Git Bash, es necesario que se configu
 
 ***Nota: Es recomendable que el email que se utilice también pueda ser utilizado en el usuario de GitHub.***
 
-- git config \--global user.name \[tu nombre\]  
-- git config \--global user.email \[tu email\]
+- git config --global user.name [tu nombre]  
+- git config --global user.email [tu email]
 
 Antes de continuar, verificaremos si se ha guardado correctamente y para ello usamos el comando:
 
-- git config \--list 
+- git config --list 
 
 Este comando nos ayudará a verificar si el nombre y el correo se han guardado correctamente.
 
 Una vez configurado el usuario local, empezaremos a trabajar desde la terminal. Esto con el objetivo de poder visualizar dónde estará nuestro repositorio. Por lo cual empezaremos a trabajar con los siguientes comandos.
 
-- pwd \= ya que lo primero que queremos verificar es la ruta en la que estamos.   
-- ls \= aquí tendremos una lista de los directorios a los cuales se tienen acceso o en caso de ya estar trabajando, se muestra la ruta en la cual estamos.  
-- cd \= aqui es para movernos a uno de los directorios/carpetas, por lo que \[nombre del folder/directorio en este caso nuestro repositorio se encontrará en la carpeta de documents\]  
-- ls \= con este comando podemos visualizar el contenido de dicho folder.  
+- pwd = ya que lo primero que queremos verificar es la ruta en la que estamos.   
+- ls = aquí tendremos una lista de los directorios a los cuales se tienen acceso o en caso de ya estar trabajando, se muestra la ruta en la cual estamos.  
+- cd = aqui es para movernos a uno de los directorios/carpetas, por lo que [nombre del folder/directorio en este caso nuestro repositorio se encontrará en la carpeta de documents]  
+- ls = con este comando podemos visualizar el contenido de dicho folder.  
 - cd ..= cuando se necesite regresar a un folder anterior.  
-- pwd \= por ejemplo como ya estamos en \[documents\] este comando nos tiene que mostrar dicha ruta.
+- pwd = por ejemplo como ya estamos en [documents] este comando nos tiene que mostrar dicha ruta.
 
 Lo siguiente se puede ver en las siguientes figuras:  
+
 ![pwd y ls](/figuras/pwd_y_ls.jpg)
+
 ![cd ls pwd](/figuras/cd_ls_pwd.PNG)
 
 ***Nota: en este momento al ya haber ingresado comandos, con las flechas del teclado podemos utilizar algún comando previamente utilizado***.
 
 Una vez familiarizado con estos comandos, empezaremos a trabajar, por lo tanto realizaremos un folder a través de la terminal.
 
-- mkdir \[nombre de la carpeta que queremos crear\]
+- mkdir [nombre de la carpeta que queremos crear]
 
 La carpeta ha sido creada, por lo que para verificarlo, utilizaremos los siguientes comandos:
 
-- ls \=podemos ver que la carpeta fue creada en la ruta en la cual estábamos trabajando.  
-- cd \[el nombre de la carpeta\] \= esto para adentrarnos en la carpeta que previamente hemos creado.
+- ls =podemos ver que la carpeta fue creada en la ruta en la cual estábamos trabajando.  
+- cd [el nombre de la carpeta] = esto para adentrarnos en la carpeta que previamente hemos creado.
 
 Como se puede ver en el ejemplo:
+
 ![pwd mkdir cd](/figuras/pwd%20mkdir%20cd.PNG)
 
 ***Nota: si escribimos el inicio del archivo y  le damos en el tabulador, nos mostrará las opciones con las cuales puede completar el comando que necesitamos***
@@ -97,14 +100,15 @@ Como se puede ver en el ejemplo:
 
 También se pueden realizar archivos desde la consola, por lo cual usaremos el comando:
 
-Se realiza con el comando touch (en este caso el nombre del archivo con su extensión correspondiente "hellogit\_miranda.py" en este caso la extensión es ".py" porque queremos hacer un archivo de python) 
+Se realiza con el comando touch (en este caso el nombre del archivo con su extensión correspondiente "hellogit_miranda.py" en este caso la extensión es ".py" porque queremos hacer un archivo de python, pero puede ser la extensión de cualquier tipo de archivo como markdown ".md") 
 
-- touch hellogit\_miranda.py  
-- ls \= ahí podremos ver que el archivo fue creado en la carpeta, en la cual estábamos trabajando
+- touch hellogit_miranda.py  
+- ls = ahí podremos ver que el archivo fue creado en la carpeta, en la cual estábamos trabajando
 
 Así ya hemos creado un archivo de código en python, por lo cual si revisamos nuestra carpeta, ya ha sido creado un archivo.
 
 Como se puede ver en la figura:  
+
 ![touch_ls](/figuras/touch_ls.PNG)
 
 Pero como queremos tener un control de las versiones de código que trabajemos, iniciaremos un repositorio en nuestra carpeta, por lo cual pondremos el comando:
@@ -113,7 +117,7 @@ Pero como queremos tener un control de las versiones de código que trabajemos, 
 
 y nos mostrará lo siguiente como se puede ver en la siguiente figura:
 
-"Initialized empty Git repository in C:/Users/labmodel/Documents/Hello\_Git\_Miranda/.git/"
+"Initialized empty Git repository in C:/Users/labmodel/Documents/Hello_Git_Miranda/.git/"
 
 Que nos indica que actualmente el repositorio se inició pero está vacío y así mismo la ruta en donde este está guardado. Ahora ya podremos trabajar con el control de versiones.
 
@@ -122,73 +126,88 @@ Que nos indica que actualmente el repositorio se inició pero está vacío y as�
 ***Cuando se trabaja con Git, es importante el concepto de repository: el cual comprende toda la colección de archivos y carpetas asociados con un proyecto, en conjunto con el historial de revisión de cada archivo***.
 
 *Nota: Estamos en una trabajando localmente pero es denominado como master y en el cual tambien se podrá trabajar por branch "brazos/ramificaciones de este mismo trabajo"*. 
- 
+
 Podemos renombrar este master, si es que así lo deseamos.
 
-git branch \-m "nombre del nuevo master; en este caso master\_miranda"
+- git branch -m [nombre del nuevo master; en este caso ejemplo_miranda]
 
 Antes de seguir trabajando visualizaremos el status de nuestro trabajo.
 
-git status 
+- git status 
 
-On branch master\_miranda    
-\*indica que esta en el master\*
+On branch ejemplo_miranda    
+*indica que esta en el master*
 
-No commits yet (nos dice que no se han añadido )
+No commits yet *nos dice que no se han añadido*
 
 Untracked files:  
-  (use "git add \<file\>..." to include in what will be committed)  
-        hellogit\_miranda.py
+  (use "git add <file>..." to include in what will be committed)  
+        hellogit_miranda.py
 
-\*nos indica que hay archivos pero estos no han sido guardados dentro del repositorio\*
+**nos indica que hay archivos pero estos no han sido guardados dentro del repositorio**
 
 nothing added to commit but untracked files present (use "git add" to track)
 
+Como puede verse en la siguiente figura:
+
+![branch_y_status](/figuras/branch_y_status.PNG)
+
+Antes de guardar nuestro archivo lo abriremos desde la consola, para poder trabajar con el: 
+
+- code= (abre nuestra herramienta gráfica en este caso Visual Studio Code, si es que ya esta previamente instalado)   
+- code .= (abre nuestra herramienta gráfica en este caso Visual Studio Code, si es que ya esta previamente instalado, pero con acceso rápido a la carpeta que previamente habíamos creado).
+
+Una vez abierto VSC, podremos ejecutar algo sencillo como la siguiente linea
+Crear un jupyter e ejecutar un linea de python con: 
+- print ("hola a todos")
+Para correr esa línea de código (shift+enter).
+Como podemos ver en la siguiente figura:
+
+![ejemplo_py](/figuras/ejemplo_py.PNG)
+
 Por lo cual para guardar nuestros archivos utilizaremos el comando:
 
-git add "nombre de nuestro archivo/va sin comillas"  
-	\>git add hellogit\_miranda.py
+- git add [nombre de nuestro archivo]  
+- git add hellogit_miranda.py
 
-Si volvemos a checar el status, ahora nos indicará que este fue añadido al repositorio pero que este no tiene commits "no commits yet"
+Si volvemos a checar el status (**con el comando de Git Status**), ahora nos indicará que este fue añadido al repositorio pero que este no tiene commits "no commits yet"
 
-Nota: Si hacemos el comando "git add . se guardan todos los archivos que esten pendientes o los \*untracked files\*.
+**Nota: Si hacemos el comando "git add . se guardan todos los archivos que esten pendientes o los *untracked files*.**
+
+![git_add](/figuras/gitt_add.PNG)
 
 Por lo cual para que estos cambios ya queden registrados es necesario utilizar el comando:
 
-\>git commit \-m " Este mensaje estará entre comillas y busca que sea claro de lo que se ha hecho \*mi primer commit\*"
+-git commit -m " Este mensaje estará entre comillas y busca que sea claro de lo que se ha hecho *mi primer commit*"
 
-Nota: una vez realizado el commit, este tendrá un identificador unico, lo cual nos permitirá identificar entre los n-commits que pudieramos realizar en nuestro trabajo.
+***Nota: una vez realizado el commit, este tendrá un identificador único, lo cual nos permitirá identificar entre los n-commits que pudieramos realizar en nuestro trabajo***.
 
 Cuando se quieran visualizar los commits que se han realizado, se utiliza el comando:
 
-\>git log   
-Nota: esto nos indica el identificador unico de cada commit y quien lo ha realizado, en este caso como estamos trabajando localmente, aparecerá nuestra información (que previamente hemos configurado) y a parte la fecha exacta de cuando este ha sido realizado y el mensaje que se ha commiteado, en este caso \*mi primer commit\*
+- git log   
 
-Podemos repetir los pasos que hemos realizado hasta este momento, para realizar un segundo archivo de código, abrir el código en nuestra herramienta gráfica, añadir código, guardarlo y commitearlo, por lo cual si hacemos el comando \*ls\*, nos desplejara que actualmente tenemos dos archivos en nuestra carpeta.
+***Nota: esto nos indica el identificador único de cada commit y quien lo ha realizado, en este caso como estamos trabajando localmente, aparecerá nuestra información (que previamente hemos configurado) y a parte la fecha exacta de cuando este ha sido realizado y el mensaje que se ha commiteado, en este caso *mi primer commit* ***
 
-Ahora volveremos a nuestros archivos de código y lo modificaremos. Si hacemos el comando "git status" nos manda un mensaje indicando que hemos hecho unas modificaciones en este archivo(s).
+Como puede ver el la siguiente figura:
 
-Si queremos regresar a una parte de nuestro código, podemos realizarlo con el siguiente comando 
+![commit_log](/figuras/commit_log.PNG)
 
-git checkout 
-
-Nota: Tenemos que tener en cuenta que no han sido commiteados los cambios en nuestros archivos, por lo cual podemos volver a nuestro último commit
-
-	\>code= (abre nuestra herramienta gráfica en este caso Visual Studio Code, si es que ya esta previamente instalado)   
-	\> code .= (abre nuestra herramienta gráfica en este caso Visual Studio Code, si es que ya esta previamente instalado, pero con acceso rápido a la carpeta que previamente habíamos creado)
 
 ### Vscode
 
-En VScode: es una manera sencilla de manejar git y git hub.  
+Visual Studio Code es una herramienta gráfica que nos permite de manejar Git de una manera simple.  
 Para descargar VScode:  
-\> click en https://code.visualstudio.com/
+-click en https://code.visualstudio.com/
 
-El primer paso para utilizarlos juntos, es tener una carpeta previamente destinada que será la que utilicemos para realizar nuestro repositorio.  
-\>open folder   
-\>seleccionar la carpeta previamente seleccionada   
-\> click en source control   
-\> click en initialize repository   
+El primer paso para utilizar VScode y Git juntos, es tener una carpeta previamente destinada que será la que utilicemos para realizar nuestro repositorio, por lo que abriremos VScode y realizaremos los siguientes pasos:
+- open folder   
+- seleccionar la carpeta previamente seleccionada
+- click en source control
+- click en initialize repository   
+
 Cuando en el panel derecho aparezca una "U"= Untracked, significando un archivo nuevo o que ha sido cambiado, pero no ha sido añadido al repositorio; por lo que para añadirlo:  
-\>click "+" y ahora está añadido el siguiente paso  
-\> se necesita commitear el archivo, lo unico que se necesita hacer es añadir un comentario como "primer comentario (en general es para describir los cambios que hayan pasado)"  
-\> click en commit; se guarda el comentario y se hace el cambio en el repositorio.
+
+- click "+" y ahora está añadido el siguiente paso  
+***se necesita commitear el archivo, lo unico que se necesita hacer es añadir un comentario como "primer comentario (en general es para describir los cambios que hayan pasado)"***
+- click en commit; se guarda el comentario y se hace el cambio en el repositorio.
+ 

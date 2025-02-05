@@ -111,6 +111,8 @@ Como se puede ver en la figura:
 
 ![touch_ls](/figuras/touch_ls.PNG)
 
+### Inicio del repositorio
+
 Pero como queremos tener un control de las versiones de código que trabajemos, iniciaremos un repositorio en nuestra carpeta, por lo cual pondremos el comando:
 
 - git init

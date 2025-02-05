@@ -210,3 +210,5 @@ Cuando en el panel derecho aparezca una "U"= Untracked, significando un archivo 
 ***se necesita commitear el archivo, lo unico que se necesita hacer es añadir un comentario como "primer comentario (en general es para describir los cambios que hayan pasado)"***
 - click en commit; se guarda el comentario y se hace el cambio en el repositorio.
  
+ Estos pasos se haran cada vez que necesites hacer un cambio y lo quieras guardar.
+ 

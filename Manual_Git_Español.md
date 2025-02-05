@@ -1,1 +1,0 @@
-# Manual Git en Español

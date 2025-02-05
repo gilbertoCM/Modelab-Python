@@ -74,9 +74,9 @@ Once the local user is configured, we will star working from the terminal. This 
 
 The following can be seen in the following figures:
 
-![pwd_y_ls](/figuras/pwd_y_ls.jpg)
+![pwd_y_ls](/Manuals/Figures/pwd_y_ls.jpg)
 
-![cd_ls_pwd](/figuras/cd_ls_pwd.PNG)
+![cd_ls_pwd](/Manuals/Figures/cd_ls_pwd.PNG)
 
 ***Note: at this point, since you have already entered commands, you can use the arrow keys to use a previously used command***.
 
@@ -93,7 +93,7 @@ So we have already created a python code file, so if we check our folder, a file
 
 As you can see in the figure:
 
-![touch_ls](/figuras/touch_ls.PNG)
+![touch_ls](/Manuals/Figures/touch_ls.PNG)
 
 But as we want to have a control of the code versions we work with, we will star a **repository** in our folder, so we will put the command:
 
@@ -105,7 +105,7 @@ and it will show us the following as you can see in the following figure:
 
 This indicates that the repository is currently started but it is empty and also the path where it is stored. Now we can work with version control.
 
-![git_init](/figuras/git_init.PNG)
+![git_init](/Manuals/Figures/git_init.PNG)
 
 ***When working with Git, the concept of **repository** is important: it comprises the entire collection of files and folders associated with a project, along with the revision history of each file***.
 
@@ -133,7 +133,7 @@ nothing added to commit but untracked files present (use “git add” to track)
 
 As you can see in the following figure:
 
-![branch_y_status](/figuras/branch_y_status.PNG)
+![branch_y_status](/Manuals/Figures/branch_y_status.PNG)
 
 Before saving our file we will open it from the console, to be able to work with it: 
 
@@ -147,7 +147,7 @@ To run that line of code (shift+enter).
 
 As we can see in the following figure:
 
-![ejemplo_py](/figuras/ejemplo_py.PNG)
+![ejemplo_py](/Manuals/Figures/ejemplo_py.PNG)
 
 So to save our files we will use the command:
 
@@ -158,7 +158,7 @@ If we check the status again (**Git Status** command), now it will indicate that
 
 **Note: If we do the command “git add . all the files that are pending or *untracked files* are saved **.
 
-![git_add](/figuras/gitt_add.PNG)
+![git_add](/Manuals/Figures/gitt_add.PNG)
 
 So for these changes to be registered it is necessary to use the command:
 
@@ -173,7 +173,7 @@ When you want to visualize the commits that have been made, use the command:
 
 As you can see in the following figure:
 
-![commit_log](/figuras/commit_log.PNG)
+![commit_log](/Manuals/Figures/commit_log.PNG)
 
 
 ## Vscode

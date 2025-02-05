@@ -27,7 +27,7 @@ Verifica la instalación con
 
 *Ejemplo*
 
-![git_version](/figuras/git_version.png)
+![git_version](/Manuals/Figures/git_version.png)
 
 2. GitHub Desktop (Interfaz gráfica opcional)
 Descárgalo desde: https://desktop.github.com/ .
@@ -47,7 +47,7 @@ git config --global user.name "Tu Nombre"
  
  *Ejemplo*
 
- ![git_user](/figuras/git_user.png)
+ ![git_user](/Manuals/Figures/git_user.png)
 
 ## CREACIÓN Y GESTIÓN DE REPOSITORIOS 
 
@@ -66,5 +66,5 @@ git config --global user.name "Tu Nombre"
 Para trabajar en un repositorio existente debemos situarnos en el y extraer el codigo.
 *Ejemplo*
 
-![git_clone](/figuras/git_clone.png)
+![git_clone](/Manuals/Figures/git_clone.png)
 

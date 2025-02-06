@@ -133,7 +133,7 @@ nothing added to commit but untracked files present (use “git add” to track)
 
 As you can see in the following figure:
 
-![branch_y_status](/manuals/figures/branch_y_status.PNG)
+![branch_y_status](/manuals/figures/branch_y_status.png)
 
 Before saving our file we will open it from the console, to be able to work with it: 
 

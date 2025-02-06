@@ -77,7 +77,7 @@ Lo siguiente se puede ver en las siguientes figuras:
 
 ![pwd y ls](/Manuals/Figures/pwd_y_ls.jpg)
 
-![cd ls pwd](/Manuals/Figures/cd_ls_pwd.PNG)
+![cd ls pwd](/Manuals/Figures/cd_ls_pwd.png)
 
 ***Nota: en este momento al ya haber ingresado comandos, con las flechas del teclado podemos utilizar algún comando previamente utilizado***.
 
@@ -92,7 +92,7 @@ La carpeta ha sido creada, por lo que para verificarlo, utilizaremos los siguien
 
 Como se puede ver en el ejemplo:
 
-![pwd mkdir cd](/Manuals/Figures/pwd%20mkdir%20cd.PNG)
+![pwd mkdir cd](/Manuals/Figures/pwd%20mkdir%20cd.png)
 
 ***Nota: si escribimos el inicio del archivo y  le damos en el tabulador, nos mostrará las opciones con las cuales puede completar el comando que necesitamos***
 
@@ -109,7 +109,7 @@ Así ya hemos creado un archivo de código en python, por lo cual si revisamos n
 
 Como se puede ver en la figura:  
 
-![touch_ls](/Manuals/Figures/touch_ls.PNG)
+![touch_ls](/Manuals/Figures/touch_ls.png)
 
 ### Inicio del repositorio
 
@@ -123,7 +123,7 @@ y nos mostrará lo siguiente como se puede ver en la siguiente figura:
 
 Que nos indica que actualmente el repositorio se inició pero está vacío y así mismo la ruta en donde este está guardado. Ahora ya podremos trabajar con el control de versiones.
 
-![git_init](/Manuals/Figures/git_init.PNG)
+![git_init](/Manuals/Figures/git_init.png)
 
 ***Cuando se trabaja con Git, es importante el concepto de repository: el cual comprende toda la colección de archivos y carpetas asociados con un proyecto, en conjunto con el historial de revisión de cada archivo***.
 
@@ -152,7 +152,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Como puede verse en la siguiente figura:
 
-![branch_y_status](/Manuals/Figures/branch_y_status.PNG)
+![branch_y_status](/Manuals/Figures/branch_y_status.png)
 
 Antes de guardar nuestro archivo lo abriremos desde la consola, para poder trabajar con el: 
 
@@ -164,7 +164,7 @@ Una vez abierto VSC, podremos ejecutar algo sencillo como la siguiente linea:
 Para correr esa línea de código (shift+enter).
 Como podemos ver en la siguiente figura:
 
-![ejemplo_py](/Manuals/Figures/ejemplo_py.PNG)
+![ejemplo_py](/Manuals/Figures/ejemplo_py.png)
 
 Por lo cual para guardar nuestros archivos utilizaremos el comando:
 
@@ -175,7 +175,7 @@ Si volvemos a checar el status (**con el comando de Git Status**), ahora nos ind
 
 **Nota: Si hacemos el comando "git add . se guardan todos los archivos que esten pendientes o los *untracked files*.**
 
-![git_add](/Manuals/Figures/gitt_add.PNG)
+![git_add](/Manuals/Figures/gitt_add.png)
 
 Por lo cual para que estos cambios ya queden registrados es necesario utilizar el comando:
 
@@ -191,7 +191,7 @@ Cuando se quieran visualizar los commits que se han realizado, se utiliza el com
 
 Como puede ver el la siguiente figura:
 
-![commit_log](../Manuals/Figures/commit_log.PNG)
+![commit_log](../Manuals/Figures/commit_log.png)
 
 
 ### Vscode

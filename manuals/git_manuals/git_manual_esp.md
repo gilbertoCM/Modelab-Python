@@ -225,6 +225,7 @@ El primer paso para utilizar VScode y Git juntos, es tener una carpeta previamen
 
 ![source_control](/manuals/figures/source_control.png)
 
+
 - click en initialize repository **con esto ya hemos empezado el repositorio en Git desde VSCode**
 
 Empezaremos a realizar un archivo, pero podemos ver que la interfaz de source control esta cambiada, por lo que para hacer un nuevo archivo daremos, nos ubicaremos en la columna de la parte superior izquierda en el ícono **explorer** y le daremos click en **new file**, como se ve en la imagen:

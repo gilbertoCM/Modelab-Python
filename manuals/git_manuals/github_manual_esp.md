@@ -37,21 +37,15 @@ Genera un token de acceso personal en https://github.com/settings/tokens si usas
 Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settings/keys , si prefieres autenticación SSH.
 
 ## EJECUTACIÓN DE GITHUB
-### Configurar Git con Github 
- - Configurar el nombre de usuario 
 
-git config --global user.name "Tu Nombre"
- - Configurar el correo electronico 
- 
- git config --global user.email "tuemail@example.com"
- 
- *Ejemplo*
 
- ![git_user](/Manuals/Figures/git_user.png)
-
-## CREACIÓN Y GESTIÓN DE REPOSITORIOS 
+### CREACIÓN Y GESTIÓN DE REPOSITORIOS 
 
 ### Crear un Repositorio en GitHub
+
+ **NOTA: Hay dos formas de crear un repositorio, la primera es desde GitHub y la segunda manera es desde terminal.**
+
+  ## *Desde Git Hub*
 
  1. Inicia sesión en GitHub.
 
@@ -60,6 +54,57 @@ git config --global user.name "Tu Nombre"
  3. Escribe un nombre para el repositorio y elige si será público o privado.
 
  4. Haz clic en "Create repository".
+
+   * Datos que debes proporcionar:
+
+  Nombre del repositorio (ejemplo: mi-proyecto).
+  Descripción (opcional, pero recomendable).
+
+   - Visibilidad:
+
+  Público (visible para todos).
+
+  Privado (solo accesible para ti y colaboradores).
+
+   - Opcionales:
+
+  README.md: Explica de qué trata el repositorio.
+
+  .gitignore: Archivos que Git debe ignorar.
+
+  Licencia: Tipo de licencia de tu código (MIT, GPL, etc.).
+   
+   ## *Desde terminal*
+
+1. #### Configurar Git con Github 
+  - Configurar el nombre de usuario 
+
+  git config --global user.name "Tu Nombre"
+  - Configurar el correo electronico 
+ 
+  git config --global user.email "tuemail@example.com"
+ 
+  *Ejemplo*
+
+  ![git_user](/Manuals/Figures/git_user.png)
+
+2. #### Vincular tu repositorio local con GitHub
+   Es necesario crear una carpeta un tu PC y accede a ella usan los comandos:
+   mkdir mi-proyecto    <-- *Ejemplo de como escribir el nombre de tu carpeta*
+   cd mi-proyecto       
+  
+  **mkdir: Se usa para crear directorios (carpetas) en la línea de comandos.**                 
+  **cd: Se usa en la terminal para cambiar de directorio**
+
+   #### Inicia git en la carpeta 
+   Empezamos a crear el repositorio con el comando:
+   git init 
+
+   **git init: Es un comando de Git que inicializa un nuevo repositorio Git en una carpeta**
+
+   #### Agrega un archivo README.md (opcional)
+   
+
 
 ### Clonar un Repositorio
 

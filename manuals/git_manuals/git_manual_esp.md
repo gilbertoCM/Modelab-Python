@@ -235,7 +235,7 @@ Una vez dado click, nombraremos el archivo (**Nota:el nombre del archivo va con 
 
 En este caso nombraremos nuestro archivo como: [ejemplo.py] **.py es la extensión para un archivo de python**
 
-print("Hola)
+print("Hola")
 y para guardarlo haremos **ctrl+S**, una vez realizado eso, nos iremos a **source control** y le daremos click a nuestro archivo, debe estar abajo del apartado **changes** y si le damos click, podremos ver que nos aparecen nuestros primeros cambios, estos del lado donde se añadieron de color verde.
 
 ![primeros_cambios](/manuals/figures/primeros_cambios.png)

@@ -89,27 +89,112 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
   ![git_user](/Manuals/Figures/git_user.png)
 
 2. #### Vincular tu repositorio local con GitHub
-   Es necesario crear una carpeta un tu PC y accede a ella usan los comandos:
-   mkdir mi-proyecto    <-- *Ejemplo de como escribir el nombre de tu carpeta*
-   cd mi-proyecto       
+    Es necesario crear una carpeta un tu PC y accede a ella usan los comandos:
+    mkdir mi-proyecto    <-- *Ejemplo de como escribir el nombre de tu carpeta*
+    cd mi-proyecto       
   
-  **mkdir: Se usa para crear directorios (carpetas) en la línea de comandos.**                 
-  **cd: Se usa en la terminal para cambiar de directorio**
+    **mkdir: Se usa para crear directorios (carpetas) en la línea de comandos.**                 
+    **cd: Se usa en la terminal para cambiar de directorio**
 
-   #### Inicia git en la carpeta 
-   Empezamos a crear el repositorio con el comando:
-   git init 
+    #### Inicia git en la carpeta 
+    Empezamos a crear el repositorio con el comando:
+    git init 
 
-   **git init: Es un comando de Git que inicializa un nuevo repositorio Git en una carpeta**
+    **git init: Es un comando de Git que inicializa un nuevo repositorio Git en una carpeta**
 
-   #### Agrega un archivo README.md (opcional)
-   
+    #### Agrega un archivo README.md (opcional)
+    Utilizaremos el comando:
+    echo "# Mi Proyecto" > README.md
 
+    **echo con ">" :  Si usas > (mayor que), creas un archivo y escribes en él**
+    *Nota: Si el archivo ya existe, su contenido sera reemplazado.*
 
-### Clonar un Repositorio
+    #### Agrega los archivos al repositorio 
+    git add .
+    git commit -m "Primer commit"    <-- *Ejemplo de como escribir un commit*
 
-Para trabajar en un repositorio existente debemos situarnos en el y extraer el codigo.
-*Ejemplo*
+    **git add .: Se usa para agregar todo los archivos y cambios al área de preparación antes de hacer un commit.**
+    **git commit -m: Guarda los cambios en el historial del repositorio con un mensaje descrptivo**
+
+3. #### Subir el proyecto a GitHub
+    -Copia la URL del repositorio en GitHub
+    
+    -Agrega el repositorio remoto usando el comando:
+    
+    git remote add origin "https://github.com/tuusuario/mi-proyecto.git"      <-- *Ejemplo de como poner el link pero es importante ponerlo sin las comillas*
+
+    -Sube los archivos:
+
+    git branch -M main
+    git push -u origin main
+    
+    **git remote add origin: Se usa para vincular un repositorio local con un repositorio remoto como GitHub**
+    **git branch -M main: Se usa para renombrar la rama actual a "main" y establecerla como la rama pinicipal del repositorio**
+    **git push -u origin main: Se usa para subir cambios del repositorio local a un repositorio remoto (como GitHub) y establecer la rama principal para futuros "push" y "pull"**
+
+4. ### Clonar un Repositorio existente
+ 
+   Para trabajar en un repositorio existente debemos situarnos en el y extraer el codigo.
+   *Ejemplo*
 
 ![git_clone](/Manuals/Figures/git_clone.png)
 
+5. ### Actualizacion y mantenimiento 
+   
+   - Subir cambios
+   git add .
+   git commit -m "Descripción del cambio"
+   git push origin main
+    
+   - Descargar cambios desde GitHub
+   git pull origin main
+
+6. #### Descagar cambios desde GitHub 
+   
+   - Si trabajas con otros colaboradores, puedes descargar los cambios más recientes con el comando:
+   git pull origin main
+
+7. #### Trabajar con ramas en GitHub
+
+   - Crear una nueva rama usando los comandos:
+   git branch nueva-rama 
+   git checkout nueva-rama
+   git checkout -b nueva-rama 
+
+   - Subir una nueva rama a GitHub:
+   git push -u origin nueva-rama
+
+   - Fusionar una rama con *main*
+   git checkout main 
+   git merge nueva-rama
+   git pudh origin main
+
+### Trabajar en equipo con GitHub 
+
+     Colaborar en un Repositorio 
+  Si trabajas en equipo, puedes:
+   + **Crear un "Fork"**: Copia un repositorio a tu cuenta
+   + **Clonar el repositorio**y hacer cambios en tu máquina 
+   + **Hacer un Pull Request (PR)**para solicitar la fusión de tus cambios.
+   
+     Comó crear un Pull Request (PR)
+  1. Sube tus cambios a una rama nueva en GitHub.
+  2. Ve al repositorio en GitHub y haz clic en "Pull Request".
+  3. Selecciona tu rama y haz clic en "Create Pull Request".
+  4. Escribe una descripción y envíalo para revisión.
+
+### Gestionar Problemas y Documentación 
+
+--> Crear un Issue
+  Los Issues permiten reportar errores o solicitar nuevas funciones:
+  1. Ve a la pestaña "Issues" en GitHub.
+  2. Haz clic en "New Issue".
+  3. Describe el problema o sugerencia.
+  4. Asigna etiquetas y personas responsables.
+
+### Eliminar un repositorio en GitHub 
+  
+  1. Dirigete a **Settings** en GitHub.
+  2. Desplázate hasta la sección **"Danger Zone"**.
+  3. Haz clic en **"Delete this repository"**
+  

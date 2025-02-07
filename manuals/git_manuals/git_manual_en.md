@@ -51,6 +51,10 @@ Another way to see what version we have, is with the command:
 
 And this will show us the version that was installed.
 
+We can also check what **path** Git is stored in, so we will put the command:
+
+- where.exe git 
+
 To continue in the correct use of Git Bash, it is necessary to configure a local user, which in this case consists of a name and email, so that these can be attributed with the changes made by the user locally an the date of when they are made.
 
 ***Note: It's reccommended that the email that is used can also be used in the Git-Hub user***.
@@ -183,17 +187,42 @@ Visual Studio Code is a graphical tool that allows us to manage Git in a simple 
 To download VScode:  
 - click on https://code.visualstudio.com/
 
-The first step to use VScode and Git together, is to have a folder previously destined that will be the one we will use to make our repository, so we will open VScode and perform the following steps:
+This tool, as well as working with terminal, its purpose is the version control through a local or remote repository.
+
+Once downloaded, we will open VScode, it is important to mention that you can work from terminal from the same application, for that we will go to the “view” section and select “terminal”, as you can see in the image.
+
+![abrir_terminal](/manuals/figures/abrir_terminal.png)
+
+**Note: once the terminal is open it is necessary to verify that in the upper right corner, it says ***powershell*** **.
+
+The first step to use VSCode and Git together, is to have a folder previously destined that will be the one that we will use to make our repository, so we will open VSCode and we will make the following steps and as shown in the following figures:
 
 - open folder   
-- select the previously selected folder
-- click on source control
-- click on initialize repository   
+- locate the previously selected folder
 
-When in the right panel appears a “U”= Untracked, meaning a new file or one that has been changed, but has not been added to the repository; so to add it, click “+” and now it is added:  
+![open_folder](/manuals/figures/open_folder.png)
 
-- click “+” and now the next step is added.  
-***you need to commit the file, the only thing you need to do is to add a comment as “first comment (in general it is to describe the changes that have happened) ”***.
+- click on source control (this is located in the left column)
 
-- click on commit; the comment is saved and the change is made in the repository.
- 
+![source_control](/manuals/figures/source_control.png)
+
+- click on initialize repository **with this we have already started the repository in Git from VSCode**.
+
+We will start to make a file, but we can see that the source control interface is changed, so to make a new file we will click on the **explorer** icon in the upper left column and click on **new file**, as shown in the image:
+
+![new_file](/manuals/figures/new_file.png)
+
+Once clicked, we will name the file (**Note: the file name goes with everything and the extension of the file type we need**).
+
+In this case we will name our file as: [ejemplo.py] **.py is the extension for a python file**.
+
+print("Hello)
+and to save it we will make **ctrl+S**, once done that, we will go to **source control** and we will give click to our file, it must be below the section **changes** and if we give click, we will be able to see that our first changes appear to us, these of the side where they were added of green color.
+
+![primeros_cambios](/manuals/figures/primeros_cambios.png)
+
+So to save this change in a permanent way we need to **commit** our work and have the changes reflected in the repository (***Note: these need to be short and concise of the general changes that have been made***).
+
+![primer_commit](/manuals/figures/primer_commit.png)
+
+ These steps will be done every time you need to make a change and want to save it. With this you can edit and add files to your repository while keeping track of them.

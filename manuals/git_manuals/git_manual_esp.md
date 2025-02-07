@@ -51,6 +51,10 @@ Otra manera poder de ver que versión tenemos, es con el comando :
 
 Y con esto nos mostrará la versión que fue instalada.
 
+También podemos checar que en que **path** esta guardado git, por lo que pondremos el comando:
+
+- where.exe git 
+
 Para seguir en la correcta utilización de Git Bash, es necesario que se configure un usuario local, que en este caso consiste de un nombre y email, para que estos puedan ser atribuidos con los cambios que realice el usuario localmente y la fecha de cuando los realiza. 
 
 ***Nota: Es recomendable que el email que se utilice también pueda ser utilizado en el usuario de GitHub.***
@@ -196,23 +200,50 @@ Como puede ver el la siguiente figura:
 
 ### Vscode
 
-Visual Studio Code es una herramienta gráfica que nos permite de manejar Git de una manera simple.  
+Visual Studio Code es una herramienta gráfica que nos permite de manejar Git y Git Hub de una manera simple.  
+
+Lo primero que realizaremos es la descarga de VSCode.
 Para descargar VScode:  
 - click en https://code.visualstudio.com/
 
-El primer paso para utilizar VScode y Git juntos, es tener una carpeta previamente destinada que será la que utilicemos para realizar nuestro repositorio, por lo que abriremos VScode y realizaremos los siguientes pasos:
+Esta herramienta al igual que el trabajar con terminal su próposito es el control de versiones por medio de un repositorio ya sea local o remoto.
+
+Una vez descargado, abriremos VScode, es importante mencionar que se puede trabajar desde terminal desde la misma aplicación, por lo cual para eso nos iremos a al apartado "view" y seleccionaremos "terminal", como se puede observar en la imagen.
+
+![abrir_terminal](/manuals/figures/abrir_terminal.png)
+
+**Nota: una vez abierta la terminal es necesario verificar que en la esquina superior derecha, diga ***powershell*** **.
+
+El primer paso para utilizar VScode y Git juntos, es tener una carpeta previamente destinada que será la que utilicemos para realizar nuestro repositorio, por lo que abriremos VScode y realizaremos los siguientes pasos y como se muestra en las siguientes figuras:
+
 - open folder   
-- seleccionar la carpeta previamente seleccionada
-- click en source control
-- click en initialize repository   
+- ubicar la carpeta previamente seleccionada
 
-Cuando en el panel derecho aparezca una "U"= Untracked, significando un archivo nuevo o que ha sido cambiado, pero no ha sido añadido al repositorio; por lo que para añadirlo:  
+![open_folder](/manuals/figures/open_folder.png)
 
-- click "+" y ahora está añadido el siguiente paso  
-***se necesita commitear el archivo, lo unico que se necesita hacer es añadir un comentario como "primer comentario (en general es para describir los cambios que hayan pasado)"***
-- click en commit; se guarda el comentario y se hace el cambio en el repositorio.
+- click en source control (este se encuentra en la una columna del lado izquierdo)
+
+![source_control](/manuals/figures/source_control.png)
+
+- click en initialize repository **con esto ya hemos empezado el repositorio en Git desde VSCode**
+
+Empezaremos a realizar un archivo, pero podemos ver que la interfaz de source control esta cambiada, por lo que para hacer un nuevo archivo daremos, nos ubicaremos en la columna de la parte superior izquierda en el ícono **explorer** y le daremos click en **new file**, como se ve en la imagen:
+
+![new_file](/manuals/figures/new_file.png)
+
+Una vez dado click, nombraremos el archivo (**Nota:el nombre del archivo va con todo y la extensión del tipo de archivo que necesitemos**)
+
+En este caso nombraremos nuestro archivo como: [ejemplo.py] **.py es la extensión para un archivo de python**
+
+print("Hola")
+y para guardarlo haremos **ctrl+S**, una vez realizado eso, nos iremos a **source control** y le daremos click a nuestro archivo, debe estar abajo del apartado **changes** y si le damos click, podremos ver que nos aparecen nuestros primeros cambios, estos del lado donde se añadieron de color verde.
+
+![primeros_cambios](/manuals/figures/primeros_cambios.png)
+
+Por lo que para guardar este cambio de una manera permanente necesitamos **commitear** nuestro trabajo y se vean reflejados los cambios en el repositorio (***Nota: estos necesitan ser cortos y concisos de los cambios generales que se han realizado***)
+
+![primer_commit](/manuals/figures/primer_commit.png)
  
- Estos pasos se haran cada vez que necesites hacer un cambio y lo quieras guardar.
- 
+ Estos pasos se harán cada vez que necesites hacer un cambio y lo quieras guardar. Con esto puedes editar e ir añadiendo archivos a tu repositorio mientras manejas un control de estos mismos.
 
-[def]: /manuals/figures/pwd_y_ls.jpg
+ 

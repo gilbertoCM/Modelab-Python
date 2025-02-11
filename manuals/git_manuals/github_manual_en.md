@@ -3,6 +3,13 @@
 
 GitHub is a cloud-based code hosting platform that allows the management of Git repositories. It facilitates collaboration between developers, providing tools for version control, project management and code review.
 
+**Before we start, it's important to understand the difference between Git and GitHub**
+
+*Git*: It's a version control system that allows you to track changes in files and work in a team without losing information.
+*GitHub*: Is a cloud platform where you can save and share Git repositories with others.
+
+***Think of Git as a notebok where you annotate changes and GitHub as a library where you store that notebook online***
+
 ## Creating an account on **GITHUB**
 
 1. Go to https://github.com
@@ -129,11 +136,21 @@ git push -u origin main
 **git branch -M main: Used to rename the current branch to "main"and set it as the principal branch of the repository**
 **git push -u origin main: Used to upload changes from the local repository to remote repository (such as GitHub) and set the main branch for future "push" and "pull"**
 
+*What does each term mean?*
+git push → Send commits to the remote repository.
+- u (o --set-upstream) → Sets the remote branch as a reference for future git push and git pull.
+origin → Is the name of the remote repository (linked with Git remote add origin)
+main → Is the branch to be uploaded to the remote repository.
+git branch → Manages the branches of the repository.
+-M → Forces the branch to be renamed, even if it already exists.
+
 4. ### Cloning an existing repository 
 
-To work on an existing repository we must go to it and extract the code 
+To work in an existing repository we must go to it and extract the code.
 
 ![git_clone]
+
+## Modifications in the GitHub repository from terminal
 
 5. ### Updating and maintenance 
 - Upload changes 
@@ -191,3 +208,35 @@ Issues allow you to report bugs or request new features:
 1. Go to **Settings** in GitHub 
 2. Scroll down to the **Danger Zone** section 
 3. Click **Delete this repository**
+
+#### Tips and best practices 
+- Write clear and descriptive commit messages.
+- Use .gitignore to avoid uploading unnnecessary files (e.g. node_modules, *.log)
+- Work with branches to avoid changes in main withput review.
+- Synchronize changes regularly with Git Pull.
+- Use "Issues" and "Pull Request" to organize team work.
+
+## Quick summary of useful commands 
+
+| **COMANDO**                -   **DESCRIPCIÓN**                       |
+
+   |  git init                ------      Starts a repository.               
+
+   |  git clone                 ------    Clones a GitHub repository.       
+
+   |  git status                ------    Displays the status of files.   
+
+   |  git add .                 -----    Adds changes to the staging area.
+
+   |  git commit -m "Mensaje"   -----     Saves changes to history.   
+
+   |  git push origin main       -----    Upload changes to GitHub.           
+
+   |  git pull origin main      -----      Download changes to GitHub.       
+
+   |  git checkout -b rama      -----     Creates a new branch.                 
+
+   |  git merge rama         -----     Merge a branch with main.           
+   
+
+

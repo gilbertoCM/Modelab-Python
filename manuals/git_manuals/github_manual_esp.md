@@ -3,6 +3,12 @@
 
 GitHub es una plataforma de alojamiento de código basada en la nube que permite la gestión de repositorios Git. Facilita la colaboracion entre desarrolladores, proporcionando herramientas para el control de versiones, gestión de proyectos y revisión de codigo.
 
+**Antes de empezar, es importante entender la diferencia entre Git y GitHub:**
+
+ *Git:* Es un sistema de control de versiones que te permite rastrear cambios en archivos y trabajar en equipo sin perder información.
+ *GitHub:* Es una plataforma en la nube donde puedes guardar y compartir repositorios Git con otras  personas.
+ Piensa en Git como una libreta donde anotas cambios y GitHub como una biblioteca donde guardas esa libreta en línea.
+
 ## CREACIÓN DE UNA CUENTA EN **GITHUB**
 
 1. Ingresa a la siguiente página  https://github.com.
@@ -132,50 +138,60 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
     **git branch -M main: Se usa para renombrar la rama actual a "main" y establecerla como la rama pinicipal del repositorio**
     **git push -u origin main: Se usa para subir cambios del repositorio local a un repositorio remoto (como GitHub) y establecer la rama principal para futuros "push" y "pull"**
 
+    *¿Qué significa cada termino?*
+     git push → Envía los commits al repositorio remoto.
+     -u (o --set-upstream) → Establece la rama remota como referencia para futuros git push y git pull.
+     origin → Es el nombre del repositorio remoto (vinculado con git remote add origin).
+     main → Es la rama que se va a subir al repositorio remoto.
+     git branch → Maneja las ramas del repositorio.
+     -M → Fuerza el cambio de nombre de la rama, incluso si ya existe.
+
 4. ### Clonar un Repositorio existente
  
-   Para trabajar en un repositorio existente debemos situarnos en el y extraer el codigo.
-   *Ejemplo*
+    Para trabajar en un repositorio existente debemos situarnos en el y extraer el codigo.
+    *Ejemplo*
 
 ![git_clone](/Manuals/Figures/git_clone.png)
 
+  ## Modificaciones en el Repositorio para Github desde terminal 
+
 5. ### Actualizacion y mantenimiento 
    
-   - Subir cambios
-   git add .
-   git commit -m "Descripción del cambio"
-   git push origin main
+    - Subir cambios
+    git add .
+    git commit -m "Descripción del cambio"
+    git push origin main
     
-   - Descargar cambios desde GitHub
-   git pull origin main
+    - Descargar cambios desde GitHub
+    git pull origin main
 
 6. #### Descagar cambios desde GitHub 
    
-   - Si trabajas con otros colaboradores, puedes descargar los cambios más recientes con el comando:
-   git pull origin main
+    - Si trabajas con otros colaboradores, puedes descargar los cambios más recientes con el comando:
+    git pull origin main
 
 7. #### Trabajar con ramas en GitHub
 
-   - Crear una nueva rama usando los comandos:
-   git branch nueva-rama 
-   git checkout nueva-rama
-   git checkout -b nueva-rama 
+    - Crear una nueva rama usando los comandos:
+    git branch nueva-rama 
+    git checkout nueva-rama
+    git checkout -b nueva-rama 
 
-   - Subir una nueva rama a GitHub:
-   git push -u origin nueva-rama
+    - Subir una nueva rama a GitHub:
+    git push -u origin nueva-rama
 
-   - Fusionar una rama con *main*
-   git checkout main 
-   git merge nueva-rama
-   git pudh origin main
+    - Fusionar una rama con *main*
+    git checkout main 
+    git merge nueva-rama
+    git pudh origin main
 
 ### Trabajar en equipo con GitHub 
 
      Colaborar en un Repositorio 
   Si trabajas en equipo, puedes:
    + **Crear un "Fork"**: Copia un repositorio a tu cuenta
-   + **Clonar el repositorio**y hacer cambios en tu máquina 
-   + **Hacer un Pull Request (PR)**para solicitar la fusión de tus cambios.
+   + **Clonar el repositorio** y hacer cambios en tu máquina 
+   + **Hacer un Pull Request (PR)** para solicitar la fusión de tus cambios.
    
      Comó crear un Pull Request (PR)
   1. Sube tus cambios a una rama nueva en GitHub.
@@ -198,3 +214,35 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
   2. Desplázate hasta la sección **"Danger Zone"**.
   3. Haz clic en **"Delete this repository"**
   
+  #### Consejos  y Buenas prácticas 
+
+  - Escribe mensajes de commit claros y descriptivos.
+  - Usa .gitignore para evitar subir archivos innecesarios (ejemplo: node_modules, *.log).
+  - Trabaja con ramas para evitar cambios en main sin revisión.
+  - Sincroniza cambios regularmente con git pull.
+  - Usa "Issues" y "Pull Requests" para organizar el trabajo en equipo
+
+  ## RESUMEN RAPIDO DE COMANDOS ÚTILES
+
+   | **COMANDO**                -   **DESCRIPCIÓN**                       |
+
+   |  git init                ------      Inicia un repositorio.               
+
+   |  git clone                 ------    Clona un repositorio de Github.       
+
+   |  git status                ------    Muestra el estado de los archivos.   
+
+   |  git add .                 -----    Agrega cambios al área de preparación.
+
+   |  git commit -m "Mensaje"   -----     Guarda los cambios en el historial.   
+
+   |  git push origin main       -----    Sube los cambios a Github.           
+
+   |  git pull origin main      -----      Descarga los cambios a Github.       
+
+   |  git checkout -b rama      -----     Crea una nueva rama.                 
+
+   |  git merge rama         -----     Fusiona una rama con main.           
+   
+
+

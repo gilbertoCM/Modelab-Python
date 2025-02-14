@@ -6,6 +6,7 @@ GitHub es una plataforma de alojamiento de código basada en la nube que permite
 **Antes de empezar, es importante entender la diferencia entre Git y GitHub:**
 
  *Git:* Es un sistema de control de versiones que te permite rastrear cambios en archivos y trabajar en equipo sin perder información.
+
  *GitHub:* Es una plataforma en la nube donde puedes guardar y compartir repositorios Git con otras  personas.
  Piensa en Git como una libreta donde anotas cambios y GitHub como una biblioteca donde guardas esa libreta en línea.
 
@@ -27,9 +28,10 @@ GitHub no requiere instalación, ya que es una plataforma basada en la web. Sin 
 
 1. Git (necesario para usar GitHub con la terminal)
 Descárgalo desde: https://git-scm.com/ .
-Verifica la instalación con 
 
-   git --version 
+Verifica la instalación con el comando: 
+
+   *git --version* 
 
 *Ejemplo*
 
@@ -83,72 +85,96 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
    ## *Desde terminal*
 
 1. #### Configurar Git con Github 
-  - Configurar el nombre de usuario 
 
-  git config --global user.name "Tu Nombre"
-  - Configurar el correo electronico 
- 
-  git config --global user.email "tuemail@example.com"
- 
-  *Ejemplo*
+    - Configurar el nombre de usuario 
 
-  ![git_user](/Manuals/Figures/git_user.png)
+    git config --global user.name "Tu Nombre"
+
+    - Configurar el correo electronico 
+ 
+    git config --global user.email "tuemail@example.com"
+ 
+    *Ejemplo*
+
+    ![git_user](/Manuals/Figures/git_user.png)
 
 2. #### Vincular tu repositorio local con GitHub
-    Es necesario crear una carpeta un tu PC y accede a ella usan los comandos:
-    mkdir mi-proyecto    <-- *Ejemplo de como escribir el nombre de tu carpeta*
-    cd mi-proyecto       
+   
+       Es necesario crear una carpeta un tu PC y accede a ella usan los comandos:
+
+       mkdir mi-proyecto       <-- Ejemplo de como escribir el nombre de tu carpeta
+
+       cd mi-proyecto     <-- Ejemplo de como situarse en la carpeta creada o existente
   
-    **mkdir: Se usa para crear directorios (carpetas) en la línea de comandos.**                 
-    **cd: Se usa en la terminal para cambiar de directorio**
+    **mkdir:** Se usa para crear directorios (carpetas) en la línea de comandos.                 
+    **cd:** Se usa en la terminal para cambiar de directorio.
 
     #### Inicia git en la carpeta 
-    Empezamos a crear el repositorio con el comando:
-    git init 
 
-    **git init: Es un comando de Git que inicializa un nuevo repositorio Git en una carpeta**
+    - Empezamos a crear el repositorio con el comando:
 
-    #### Agrega un archivo README.md (opcional)
-    Utilizaremos el comando:
-    echo "# Mi Proyecto" > README.md
+      *git init* 
 
-    **echo con ">" :  Si usas > (mayor que), creas un archivo y escribes en él**
-    *Nota: Si el archivo ya existe, su contenido sera reemplazado.*
+       **git init:** Es un comando de Git que inicializa un nuevo repositorio Git en una carpeta
 
-    #### Agrega los archivos al repositorio 
-    git add .
-    git commit -m "Primer commit"    <-- *Ejemplo de como escribir un commit*
+    - #### Agrega un archivo README.md (opcional)
 
-    **git add .: Se usa para agregar todo los archivos y cambios al área de preparación antes de hacer un commit.**
-    **git commit -m: Guarda los cambios en el historial del repositorio con un mensaje descrptivo**
+       Utilizaremos el comando:
+
+       *echo "# Mi Proyecto" > README.md*
+
+    **echo con ">" :**  Si usas > (mayor que), creas un archivo y escribes en él.
+
+    **Nota:** Si el archivo ya existe, su contenido sera reemplazado.
+
+    - #### Agrega los archivos al repositorio 
+
+       *git add .*
+
+       *git commit -m "Primer commit"*    <-- **Ejemplo de como escribir un commit**
+
+    **git add .:** Se usa para agregar todo los archivos y cambios al área de preparación antes de hacer un commit.
+
+    **git commit -m:** Guarda los cambios en el historial del repositorio con un mensaje descrptivo.
 
 3. #### Subir el proyecto a GitHub
-    -Copia la URL del repositorio en GitHub
-    
-    -Agrega el repositorio remoto usando el comando:
-    
-    git remote add origin "https://github.com/tuusuario/mi-proyecto.git"      <-- *Ejemplo de como poner el link pero es importante ponerlo sin las comillas*
 
-    -Sube los archivos:
-
-    git branch -M main
-    git push -u origin main
+       1. Copia la URL del repositorio en GitHub
     
-    **git remote add origin: Se usa para vincular un repositorio local con un repositorio remoto como GitHub**
-    **git branch -M main: Se usa para renombrar la rama actual a "main" y establecerla como la rama pinicipal del repositorio**
-    **git push -u origin main: Se usa para subir cambios del repositorio local a un repositorio remoto (como GitHub) y establecer la rama principal para futuros "push" y "pull"**
+       2. Agrega el repositorio remoto usando el comando:
+    
+       git remote add origin "https://github.com/tuusuario/mi-proyecto.git"      <-- Ejemplo de como poner el link pero es importante ponerlo sin las comillas
+
+       3. Sube los archivos:
+
+       git branch -M main
+
+       git push -u origin main
+    
+    **git remote add origin:** Se usa para vincular un repositorio local con un repositorio remoto como GitHub
+
+    **git branch -M main:** Se usa para renombrar la rama actual a "main" y establecerla como la rama pinicipal del repositorio
+
+    **git push -u origin main:** Se usa para subir cambios del repositorio local a un repositorio remoto (como GitHub) y establecer la rama principal para futuros "push" y "pull"
 
     *¿Qué significa cada termino?*
-     git push → Envía los commits al repositorio remoto.
-     -u (o --set-upstream) → Establece la rama remota como referencia para futuros git push y git pull.
-     origin → Es el nombre del repositorio remoto (vinculado con git remote add origin).
-     main → Es la rama que se va a subir al repositorio remoto.
-     git branch → Maneja las ramas del repositorio.
-     -M → Fuerza el cambio de nombre de la rama, incluso si ya existe.
+
+     *git push* → Envía los commits al repositorio remoto.
+
+     *-u (o --set-upstream)* → Establece la rama remota como referencia para futuros git push y git pull.
+
+     *origin* → Es el nombre del repositorio remoto (vinculado con git remote add origin).
+
+     *main* → Es la rama que se va a subir al repositorio remoto.
+
+     *git branch* → Maneja las ramas del repositorio.
+
+     *-M* → Fuerza el cambio de nombre de la rama, incluso si ya existe.
 
 4. ### Clonar un Repositorio existente
  
     Para trabajar en un repositorio existente debemos situarnos en el y extraer el codigo.
+
     *Ejemplo*
 
 ![git_clone](/Manuals/Figures/git_clone.png)
@@ -156,21 +182,38 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
   ## Modificaciones en el Repositorio para Github desde terminal 
 
 5. ### Actualizacion y mantenimiento 
-   
-    - Subir cambios
-    git add .
-    git commit -m "Descripción del cambio"
-    git push origin main
     
-    - Descargar cambios desde GitHub
-    git pull origin main
+    Cuando realizas cambios en tu código, súbelos a GitHub con estos comandos: 
+
+      - Subir cambios al repositorio remoto
+
+       git status
+
+       git add .
+
+       git commit -m "Descripción del cambio"
+
+       git push origin main
+   
+    **git status**= Ayuda a visualizar que archivos han cambiado.
+
+    **git push origin main**= Sirve para enviar tus cambios a la rama main en GitHub.
 
 6. #### Descagar cambios desde GitHub 
    
+    Si alguien más ha hecho cambios en el mismo archivo e intentas hacer un git push origin main, es posible que Git te pida primero actualizar tu código con pull.
+
     - Si trabajas con otros colaboradores, puedes descargar los cambios más recientes con el comando:
+
     git pull origin main
 
+    Si hay conflictos, Git te pedirá resolverlos manualmente en los archivos afectados. 
+
+
+
 7. #### Trabajar con ramas en GitHub
+
+    Si trabajas en equipo, es recomendable usar **ramas** en lugar de modificar directamente la *main*.
 
     - Crear una nueva rama usando los comandos:
     git branch nueva-rama 
@@ -183,38 +226,51 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
     - Fusionar una rama con *main*
     git checkout main 
     git merge nueva-rama
-    git pudh origin main
+    git push origin main
 
 ### Trabajar en equipo con GitHub 
 
-     Colaborar en un Repositorio 
-  Si trabajas en equipo, puedes:
-   + **Crear un "Fork"**: Copia un repositorio a tu cuenta
-   + **Clonar el repositorio** y hacer cambios en tu máquina 
-   + **Hacer un Pull Request (PR)** para solicitar la fusión de tus cambios.
+    Colaborar en un Repositorio 
+     Si trabajas en equipo, puedes:
+       - Crear un "Fork": Copia un repositorio a tu cuenta.
+       - Clonar el repositorio y hacer cambios en tu máquina. 
+       - Hacer un Pull Request (PR) para solicitar la fusión de tus cambios.
    
-     Comó crear un Pull Request (PR)
+ 
+  Comó crear un Pull Request (PR)
   1. Sube tus cambios a una rama nueva en GitHub.
   2. Ve al repositorio en GitHub y haz clic en "Pull Request".
   3. Selecciona tu rama y haz clic en "Create Pull Request".
   4. Escribe una descripción y envíalo para revisión.
+  5. Alguien revisará tu código y podrá aceptarlo o solicitar cambios. 
 
-### Gestionar Problemas y Documentación 
+  ### Gestionar Problemas y Documentación 
 
---> Crear un Issue
-  Los Issues permiten reportar errores o solicitar nuevas funciones:
-  1. Ve a la pestaña "Issues" en GitHub.
-  2. Haz clic en "New Issue".
-  3. Describe el problema o sugerencia.
-  4. Asigna etiquetas y personas responsables.
+       - Crear un Issue
+
+       Los Issues permiten reportar errores o solicitar nuevas funciones:
+       1. Ve a la pestaña "Issues" en GitHub.
+       2. Haz clic en "New Issue".
+       3. Describe el problema o sugerencia.
+       4. Asigna etiquetas y personas responsables.
 
 ### Eliminar un repositorio en GitHub 
   
-  1. Dirigete a **Settings** en GitHub.
-  2. Desplázate hasta la sección **"Danger Zone"**.
-  3. Haz clic en **"Delete this repository"**
+    1. Dirigete a "Settings" en GitHub.
+    2. Desplázate hasta la sección "Danger Zone".
+    3. Haz clic en "Delete this repository".
+
+
+### Ver los colaboradores y permisos del repositorio 
+   
+    Si trabajas en equipo, puedes administrar colaboradores desde GitHub:
+
+    - Dirigete a **Settings** > **Collaborators** y agrega miembros con permisos específicos.
+
+
+
   
-  #### Consejos  y Buenas prácticas 
+### Consejos  y Buenas prácticas 
 
   - Escribe mensajes de commit claros y descriptivos.
   - Usa .gitignore para evitar subir archivos innecesarios (ejemplo: node_modules, *.log).
@@ -222,27 +278,41 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
   - Sincroniza cambios regularmente con git pull.
   - Usa "Issues" y "Pull Requests" para organizar el trabajo en equipo
 
+
+
   ## RESUMEN RAPIDO DE COMANDOS ÚTILES
 
-   | **COMANDO**                -   **DESCRIPCIÓN**                       |
+         COMANDO                            DESCRIPCIÓN                       
 
-   |  git init                ------      Inicia un repositorio.               
+         git init                   -----   Inicia un repositorio.               
 
-   |  git clone                 ------    Clona un repositorio de Github.       
+         git clone                 -----    Clona un repositorio  de Github.       
 
-   |  git status                ------    Muestra el estado de los archivos.   
+         git status                -----    Muestra el estado de los archivos.   
 
-   |  git add .                 -----    Agrega cambios al área de preparación.
+         git add .                 -----    Agrega cambios al área de preparación.
 
-   |  git commit -m "Mensaje"   -----     Guarda los cambios en el historial.   
+         git commit -m "Mensaje"   -----    Guarda los cambios en el historial.   
 
-   |  git push origin main       -----    Sube los cambios a Github.           
+         git push origin main      -----    Sube los cambios a Github.           
 
-   |  git pull origin main      -----      Descarga los cambios a Github.       
+         git pull origin main      -----    Descarga los cambios a Github.       
 
-   |  git checkout -b rama      -----     Crea una nueva rama.                 
+         git checkout -b rama      -----    Crea una nueva rama.                 
 
-   |  git merge rama         -----     Fusiona una rama con main.           
+         git merge rama            -----    Fusiona una rama con main.           
    
+### Errores más comunes al usar GitHub y cómo solucionarlo 
+   
+   Al usar Git y GitHub, es común encontrarse con errores. Aquí te dejo una lista con los más comunes y cómo resolverlos:
+    
+   1.  **"fatal: not a git repository (or any of the parent directories): .git"**
 
+   *Causa*: Estás ejecutando un comando de Git en una carpeta que no es un repositorio de Git.
+
+     Solución: 
+    - Verifica si estás en la carpeta correcta con pwd (Linux/macOS) o cd en windows.
+    - Si la carpeta no tiene un repositorio Git, inicialízalo con:
+
+    *git init*
 

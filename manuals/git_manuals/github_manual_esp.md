@@ -33,9 +33,6 @@ Verifica la instalación con el comando:
 
    *git --version* 
 
-*Ejemplo*
-
-![git_version](/manuals/figures/git_version.png)
 
 2. GitHub Desktop (Interfaz gráfica opcional)
 Descárgalo desde: https://desktop.github.com/ .
@@ -95,9 +92,6 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
  
     git config --global user.email "tuemail@example.com"
  
-    *Ejemplo*
-
-    ![git_user](/manuals/figures/git_user.png)
 
 2. #### Vincular tu repositorio local con GitHub
    
@@ -175,10 +169,14 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
 4. ### Clonar un Repositorio existente
  
     Para trabajar en un repositorio existente debemos situarnos en el y extraer el codigo.
+    Usamos el codigo 
 
-    *Ejemplo*
+    *git clone* https://github.com/usuario/repositorio.git
 
-![git_clone](/manuals/figures/git_clone.png)
+    Ejemplo 
+    
+    ![git_clone](/manuals/figures/git_clone.png)
+
 
   ## Modificaciones en el Repositorio para Github desde terminal 
 

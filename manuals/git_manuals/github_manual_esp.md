@@ -35,7 +35,7 @@ Verifica la instalación con el comando:
 
 *Ejemplo*
 
-![git_version](/Manuals/Figures/git_version.png)
+![git_version](/manuals/figures/git_version.png)
 
 2. GitHub Desktop (Interfaz gráfica opcional)
 Descárgalo desde: https://desktop.github.com/ .
@@ -49,11 +49,11 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
 
 ### CREACIÓN Y GESTIÓN DE REPOSITORIOS 
 
-### Crear un Repositorio en GitHub
+- #### Crear un Repositorio en GitHub
 
- **NOTA: Hay dos formas de crear un repositorio, la primera es desde GitHub y la segunda manera es desde terminal.**
+**NOTA:** Hay dos formas de crear un repositorio, la primera es desde GitHub y la segunda manera es desde terminal.
 
-  ## *Desde Git Hub*
+  ### *Desde Git Hub*
 
  1. Inicia sesión en GitHub.
 
@@ -63,26 +63,27 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
 
  4. Haz clic en "Create repository".
 
-   * Datos que debes proporcionar:
+     -  Datos que debes proporcionar:
 
-  Nombre del repositorio (ejemplo: mi-proyecto).
-  Descripción (opcional, pero recomendable).
+     Nombre del repositorio (ejemplo: mi-proyecto).
 
-   - Visibilidad:
+     Descripción (opcional, pero recomendable).
 
-  Público (visible para todos).
+     - Visibilidad:
 
-  Privado (solo accesible para ti y colaboradores).
+     Público (visible para todos).
 
-   - Opcionales:
+     Privado (solo accesible para ti y colaboradores).
 
-  README.md: Explica de qué trata el repositorio.
+     - Opcionales:
 
-  .gitignore: Archivos que Git debe ignorar.
+     README.md: Explica de qué trata el repositorio.
 
-  Licencia: Tipo de licencia de tu código (MIT, GPL, etc.).
+     .gitignore: Archivos que Git debe ignorar.
+  
+     Licencia: Tipo de licencia de tu código (MIT, GPL, etc.).
    
-   ## *Desde terminal*
+   ### *Desde terminal*
 
 1. #### Configurar Git con Github 
 
@@ -96,7 +97,7 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
  
     *Ejemplo*
 
-    ![git_user](/Manuals/Figures/git_user.png)
+    ![git_user](/manuals/figures/git_user.png)
 
 2. #### Vincular tu repositorio local con GitHub
    
@@ -177,7 +178,7 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
 
     *Ejemplo*
 
-![git_clone](/Manuals/Figures/git_clone.png)
+![git_clone](/manuals/figures/git_clone.png)
 
   ## Modificaciones en el Repositorio para Github desde terminal 
 
@@ -268,6 +269,16 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
     - Dirigete a **Settings** > **Collaborators** y agrega miembros con permisos específicos.
 
 
+### Cuándo usar HTTPS vs. SSH
+
+    Método          Cuándo usarlo                  Ventajas                         Desventajas 
+
+    HTTPS     Para usuarios ocasionales         Fácil de usar, no requiere       Necesita autenticación 
+              o cuando no puedas usar SSH       configuración previa.            manual cada vez.
+
+    SSH       Para desarrollaodres fre-         No requiere ingresar creden-     Requiere configuración 
+              cuentes o equipos.                ciales cada vez.                 previa.
+
 
   
 ### Consejos  y Buenas prácticas 
@@ -314,5 +325,108 @@ Usa ssh-keygen para crear una clave SSH y agrégala en https://github.com/settin
     - Verifica si estás en la carpeta correcta con pwd (Linux/macOS) o cd en windows.
     - Si la carpeta no tiene un repositorio Git, inicialízalo con:
 
-    *git init*
+    git init
+   
+   2. **"fatal:remote origin already exits"**
+
+   *Causa*: Ya hay un remoto llamado **origin**, y estás tratando de añadirlo nuevamente.
+
+     Solución:
+    - Verifica los remotos existentes:
+
+     git remote -v
+
+    - Si necesitas cambiar el remoto, primero elimínalo y agrégalo de nuevo:
+
+     git remote remove origin
+
+    Después:
+
+     git remote add origin https://github.com/usuario/repositorio.git
+
+   3. **"fatal: Authentication failed" (Error de autenticación)**
+    
+  *Causa*: Tu usuario o contraseña son incorrectos o GitHub dejó de aceptar autenticaciones con contraseña.
+     
+     Solución:
+    - Usa tokens personales en lugar de contraseñas:
+     1. Dirigete  GitHub Tokens y genera uno.
+     2. Usa este token en lugar de la contraeña al hacer git push. 
+    
+    - También puedes configurar SSH en lugar de usar HTTPS con el comando: 
+
+     ssh-keygen -t rsa -b 4096 -C ¨tuemail@example.com¨
+
+   4. **"error:failed to push some refs to 'https://github.com/...´"**
+
+  *Causa*: Tu rama loca está desactualizada con respecto al remoto. 
+
+     Solución:
+
+     1. Primerp, obtén los cambios más recientes de GitHub con el comando:
+
+     git pull origin main --rebase
+
+     2. Luego, intenta subir nuevamente:
+
+     git push origin main 
+
+    - Si hay conflictos, Git te pedirá resolverlos manualmente antes de continuar.
+
+  5. **"Merge conflict in [archivo]" (Conflic de fusión)**
+   
+    *Causa*: Dos personas modificaron el mismo archivo en diferentes versiones.
+
+     Solución:
+
+     - Abre el archivo indicado y verás algo como:
+
+     <<<<<<< HEAD
+     (tu versión)
+     =======
+     (versión remota)
+     >>>>>>> otro_commit 
+
+     - Edita el archivo manualmente, eligiendo qué cambios mantener.
+     - Guardar el archivo, luego:
+
+     git add .
+     git commit -m "Resolviendo conflicto"
+     git push origin main
+
+  6. **"detached HEAD state" (Modo HEAD separado)**
+
+  *Causa*: Estás en un estado donde no tienes una rama activa.
+
+     Solución:
+     - Si quierías revisar un commit antiguo, vuelve a la rama principal con el comando:
+    
+     git checkout main 
+
+     - Si hiciste cambios y no quieres perderlos:
+    
+     git checkout -b nueva-rama
+
+  ## CONCLUSIÓN 
+
+   GitHub es una herramienta esencial para la gestión de código y la colaboración en proyectos de software. Su integración con Git permite controlar versiones, colaborar con otros desarrolladores y desplegar código de manera eficiente. 
+
+   - Para aprovechar GitHub al máximo:
+
+     Usa **ramas** para organizar mejor los cambios.
+
+     Aprende a resolver **conflictos** para mejorar el trabajo en equipo.
+
+     Configura un archivo **.gitignore** para evitar subir archivos innecesarios.
+
+     Explora herramientas avanzadas como **GitHub Actions** para automatización.
+
+
+
+
+
+
+
+    
+
 

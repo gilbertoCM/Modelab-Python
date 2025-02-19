@@ -51,6 +51,10 @@ Another way to see what version we have, is with the command:
 
 And this will show us the version that was installed.
 
+We can also check what **path** Git is stored in, so we will put the command:
+
+- where.exe git 
+
 To continue in the correct use of Git Bash, it is necessary to configure a local user, which in this case consists of a name and email, so that these can be attributed with the changes made by the user locally an the date of when they are made.
 
 ***Note: It's reccommended that the email that is used can also be used in the Git-Hub user***.
@@ -74,9 +78,9 @@ Once the local user is configured, we will star working from the terminal. This 
 
 The following can be seen in the following figures:
 
-![pwd_y_ls](/figuras/pwd_y_ls.jpg)
+![pwd_y_ls](/manuals/figures/pwd_y_ls.jpg)
 
-![cd_ls_pwd](/figuras/cd_ls_pwd.PNG)
+![cd_ls_pwd](/manuals/figures/cd_ls_pwd.png)
 
 ***Note: at this point, since you have already entered commands, you can use the arrow keys to use a previously used command***.
 
@@ -93,7 +97,7 @@ So we have already created a python code file, so if we check our folder, a file
 
 As you can see in the figure:
 
-![touch_ls](/figuras/touch_ls.PNG)
+![touch_ls](/manuals/figures/touch_ls.png)
 
 But as we want to have a control of the code versions we work with, we will star a **repository** in our folder, so we will put the command:
 
@@ -105,7 +109,7 @@ and it will show us the following as you can see in the following figure:
 
 This indicates that the repository is currently started but it is empty and also the path where it is stored. Now we can work with version control.
 
-![git_init](/figuras/git_init.PNG)
+![git_init](/manuals/figures/git_init.png)
 
 ***When working with Git, the concept of **repository** is important: it comprises the entire collection of files and folders associated with a project, along with the revision history of each file***.
 
@@ -133,7 +137,7 @@ nothing added to commit but untracked files present (use “git add” to track)
 
 As you can see in the following figure:
 
-![branch_y_status](/figuras/branch_y_status.PNG)
+![branch_y_status](/manuals/figures/branch_y_status.png)
 
 Before saving our file we will open it from the console, to be able to work with it: 
 
@@ -147,7 +151,7 @@ To run that line of code (shift+enter).
 
 As we can see in the following figure:
 
-![ejemplo_py](/figuras/ejemplo_py.PNG)
+![ejemplo_py](/manuals/figures/ejemplo_py.png)
 
 So to save our files we will use the command:
 
@@ -158,7 +162,7 @@ If we check the status again (**Git Status** command), now it will indicate that
 
 **Note: If we do the command “git add . all the files that are pending or *untracked files* are saved **.
 
-![git_add](/figuras/gitt_add.PNG)
+![git_add](/manuals/figures/gitt_add.png)
 
 So for these changes to be registered it is necessary to use the command:
 
@@ -173,7 +177,7 @@ When you want to visualize the commits that have been made, use the command:
 
 As you can see in the following figure:
 
-![commit_log](/figuras/commit_log.PNG)
+![commit_log](/manuals/figures/commit_log.png)
 
 
 ## Vscode
@@ -183,17 +187,42 @@ Visual Studio Code is a graphical tool that allows us to manage Git in a simple 
 To download VScode:  
 - click on https://code.visualstudio.com/
 
-The first step to use VScode and Git together, is to have a folder previously destined that will be the one we will use to make our repository, so we will open VScode and perform the following steps:
+This tool, as well as working with terminal, its purpose is the version control through a local or remote repository.
+
+Once downloaded, we will open VScode, it is important to mention that you can work from terminal from the same application, for that we will go to the “view” section and select “terminal”, as you can see in the image.
+
+![abrir_terminal](/manuals/figures/abrir_terminal.png)
+
+**Note: once the terminal is open it is necessary to verify that in the upper right corner, it says ***powershell*** **.
+
+The first step to use VSCode and Git together, is to have a folder previously destined that will be the one that we will use to make our repository, so we will open VSCode and we will make the following steps and as shown in the following figures:
 
 - open folder   
-- select the previously selected folder
-- click on source control
-- click on initialize repository   
+- locate the previously selected folder
 
-When in the right panel appears a “U”= Untracked, meaning a new file or one that has been changed, but has not been added to the repository; so to add it, click “+” and now it is added:  
+![open_folder](/manuals/figures/open_folder.png)
 
-- click “+” and now the next step is added.  
-***you need to commit the file, the only thing you need to do is to add a comment as “first comment (in general it is to describe the changes that have happened) ”***.
+- click on source control (this is located in the left column)
 
-- click on commit; the comment is saved and the change is made in the repository.
- 
+![source_control](/manuals/figures/source_control.png)
+
+- click on initialize repository **with this we have already started the repository in Git from VSCode**.
+
+We will start to make a file, but we can see that the source control interface is changed, so to make a new file we will click on the **explorer** icon in the upper left column and click on **new file**, as shown in the image:
+
+![new_file](/manuals/figures/new_file.png)
+
+Once clicked, we will name the file (**Note: the file name goes with everything and the extension of the file type we need**).
+
+In this case we will name our file as: [ejemplo.py] **.py is the extension for a python file**.
+
+print("Hello)
+and to save it we will make **ctrl+S**, once done that, we will go to **source control** and we will give click to our file, it must be below the section **changes** and if we give click, we will be able to see that our first changes appear to us, these of the side where they were added of green color.
+
+![primeros_cambios](/manuals/figures/primeros_cambios.png)
+
+So to save this change in a permanent way we need to **commit** our work and have the changes reflected in the repository (***Note: these need to be short and concise of the general changes that have been made***).
+
+![primer_commit](/manuals/figures/primer_commit.png)
+
+ These steps will be done every time you need to make a change and want to save it. With this you can edit and add files to your repository while keeping track of them.

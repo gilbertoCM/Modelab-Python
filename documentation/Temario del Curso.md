@@ -91,7 +91,7 @@ Correcta presentación del Data Base
 - Wilkinson ("t")  
 - Kruskal ("ANOVA")  
 - Post-Hoc  
-- Cajas y bigotes  
+- Cajas y bigotes  (Seaborn)
 
 ## Pruebas paramétricas
 - t de Student  

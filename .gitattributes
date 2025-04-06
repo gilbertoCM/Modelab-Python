@@ -1,0 +1,6 @@
+# Aplicar nbstripout automáticamente a notebooks
+*.ipynb filter=strip-notebook
+
+# Asegurar consistencia de saltos de línea
+*.py text eol=lf
+*.ipynb text eol=lf

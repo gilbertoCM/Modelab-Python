@@ -1,0 +1,33 @@
+name: environmental_python
+dependencies:
+  - python=3.10
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - jupyterlab_widgets
+  - matplotlib
+  - seaborn
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - rasterio
+  - cartopy
+  - basemap
+  - pyproj
+  - shapely
+  - geopandas
+  - scikit-bio        
+  - black
+  - pip
+  - pip:
+      - factor_analyzer
+      - scikit-posthocs
+      - nbstripout
+      - nbdime

@@ -1,18 +1,11 @@
-# Archivos de salida de Jupyter
 .ipynb_checkpoints/
-
-# Carpeta de salidas personalizadas
-output_fileS/
-
-# Archivos temporales y de caché
+output_file/
 __pycache__/
 *.py[cod]
 *.so
 *.log
 *.tmp
 *.bak
-
-# Archivos de datos comunes que no deberían versionarse
 *.csv
 *.tsv
 *.xls
@@ -23,44 +16,22 @@ __pycache__/
 *.sqlite
 *.parquet
 *.feather
-
-# Archivos grandes de salidas o figuras
 *.png
 *.jpg
 *.jpeg
 *.gif
 *.svg
 *.pdf
-
-# Archivos de entorno
 .env
 .env.*
-*.env
 .venv/
 env/
 venv/
 *.egg-info/
-
-# Archivos de configuración personales
 .DS_Store
 Thumbs.db
-
-# VSCode
 .vscode/settings.json
 .vscode/*.code-workspace
 .vscode/extensions.json
-
-# Entornos conda exportados
 *.yml
 !environment.yml
-
-# Salidas de ejecución
-*.out
-*.aux
-*.toc
-
-# Archivos comprimidos
-*.zip
-*.tar
-*.tar.gz
-*.rar

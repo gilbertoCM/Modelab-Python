@@ -1,25 +1,71 @@
+# 🌱 Getting Started with the Environmental Data Science Course
 
-## 📦 Program Installation
+Welcome! This is a self-paced workshop designed to help you learn essential tools for environmental data analysis using Python and Jupyter Notebooks.
 
-1. **Git**: [Download here](https://git-scm.com/)
-2. **Anaconda / Miniconda**: [Download here](https://www.anaconda.com/download/success)
-3. **VS Code**: [Download here](https://code.visualstudio.com/)
+> You are encouraged to search online, use ChatGPT or your favorite AI assistant, and explore additional resources to support your learning.
+
+> ⚠️ **Disclaimer**: This course is currently in beta. You may encounter errors or inconsistencies. Please report any issues or contribute to improvements!
 
 ---
 
-## ⚙️ Configuration Steps
+## 📦 Required Software
 
-1. **Initialize Git**
-2. Configure **VS Code** to connect with your **Anaconda/Miniconda** environment and run Jupyter Notebooks.
-3. Set up **VS Code** to open and edit `.csv` files.
-4. Accept the suggested extensions when prompted by VS Code:
+Please install the following programs before starting the course:
+
+1. **Git** – Version control system  
+   👉 [Download Git](https://git-scm.com/)
+
+2. **Anaconda or Miniconda** – Python environment manager  
+   👉 [Download Anaconda](https://www.anaconda.com/download/success)
+
+3. **Visual Studio Code (VS Code)** – Code editor and notebook interface  
+   👉 [Download VS Code](https://code.visualstudio.com/)
+
+---
+
+## ⚙️ Setup Instructions
+
+Follow these steps after installing the required programs:
+
+1. **Clone this repository:**
+
+```bash
+git clone https://github.com/gilbertoCM/env_data_analysis_course.git
+cd env_data_analysis_course
+```
+
+2. **Create the Conda environment:**
+
+```bash
+conda env create -f environment.yml
+conda activate environmental_python
+```
+
+> This creates an environment called `environmental_python` with all the necessary packages for data science and geospatial analysis.
+
+> To update the environment later:
+>
+> ```bash
+> conda env update --file environment.yml --prune
+> ```
+
+3. **Install pre-commit tools to clean Jupyter notebooks:**
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+> This ensures your notebooks stay clean by automatically removing outputs and metadata before each commit.
+
+4. **Open the folder in VS Code** and install the recommended extensions when prompted:
    - Python
    - Jupyter
    - Black Formatter
    - GitHub Copilot
    - Rainbow CSV
 
-Once everything is configured, test it by creating a new Jupyter Notebook and running:
+5. **Test your setup** by creating a new notebook and running:
 
 ```python
 print("Hello, world!")
@@ -27,58 +73,48 @@ print("Hello, world!")
 
 ---
 
-## 📁 Clone the repository and create the environment
+## 🧪 Running the Course Notebooks
 
-```bash
-git clone https://github.com/gilbertoCM/env_data_analysis_course.git
-cd env_data_analysis_course
-conda env create -f environment.yml
-conda activate ciencia
-```
-
-This will create a Conda environment named `environmental_python` and install all required packages for data analysis, geospatial work, and Jupyter integration.
-
-> If you make changes to the `environment.yml`, update your environment with:
->
-> ```bash
-> conda env update --file environment.yml --prune
-> ```
-
----
-
-## ✅ Keep notebooks clean in Git (auto-remove outputs)
-
-This project uses [**nbstripout**](https://github.com/kynan/nbstripout) with [**pre-commit**](https://pre-commit.com) to automatically clean notebooks (remove outputs, metadata) before saving them to Git.
-
-### 📌 One-time setup
-
-After activating the conda environment:
-
-```bash
-pip install pre-commit
-pre-commit install
-```
-
-Now, every time you commit a notebook (even from VS Code), only the code and markdown will be saved — no outputs, no execution counts.
-
----
-
-## 📓 Run the Jupyter notebooks in the `/scripts` folder
-
-You can open them in **VS Code** or launch Jupyter manually:
+All notebooks are in the `scripts/` folder.  
+You can run them using:
 
 ```bash
 jupyter lab
 ```
 
+Or directly from **VS Code**.
+
 ---
 
-## 🧠 Course Description
+## 📁 Folder Structure
 
-This course is created by José Gilberto Cardoso Mohedano.  
-gcardoso@cmarl.unam.mx
+The repository is organized into the following folders:
 
-For further details contact Gilberto Cardoso.
+- `/data` — Contains the CSV database that will be used during the course.
+- `/documentation` — Includes the course syllabus and exercise descriptions.
+- `/manuals` — Helpful manuals and guides for Git, Python, and data analysis.
+- `/output_files` — Stores generated outputs such as PDF files and results.
+- `/scripts` — This is the main folder where you will work with Jupyter notebooks and Python scripts during the course.
 
-[^1]: https://www.icmyl.unam.mx/el_carmen/quienes_somos/personal_academico/jose-gilberto-cardoso-mohedano  
-[^2]: https://blinq.me/YKZ9U8mqdr8n?bs=db
+---
+
+## 🧼 Notebook Version Control
+
+This project uses [`nbstripout`](https://github.com/kynan/nbstripout) and [`pre-commit`](https://pre-commit.com) to:
+
+- Automatically remove outputs and metadata from notebooks
+- Keep Git commits clean and easy to review
+
+No additional setup is needed once you run `pre-commit install`.
+
+---
+
+## 👨‍🏫 Course Author
+
+This course was developed by:
+
+**José Gilberto Cardoso Mohedano**  
+Email: gcardoso@cmarl.unam.mx  
+
+🔗 [Academic Profile](https://www.icmyl.unam.mx/el_carmen/quienes_somos/personal_academico/jose-gilberto-cardoso-mohedano)  
+🔗 [Contact via Blinq](https://blinq.me/YKZ9U8mqdr8n?bs=db)

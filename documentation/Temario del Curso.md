@@ -30,7 +30,7 @@ Contenido del manual:
    - Introducción básica a GitHub  
 
 #### 3. Introducción a los temas del curso  
-- XXX Faltan mis videos (*de Git*) XXX  
+- Git y GitHub (Listo_13_Git y GitHub)
 - [Importancia_de_Python](https://www.youtube.com/watch?v=Rv910T1BJUw)  
 - [Python_Introduction](https://youtu.be/xkZMUX_oQX4?si=C9e3thBStqIlRfy3)
 
@@ -81,29 +81,29 @@ Correcta presentación del Data Base
 [Pandas_CSV](https://www.w3schools.com/python/pandas/pandas_csv.asp)  
 [Pandas_Analyzing](https://www.w3schools.com/python/pandas/pandas_analyzing.asp)
 
-- Estadística descriptiva  
-- Medidas de tendencia central  
-- Pruebas de normalidad  
+## Estadística descriptiva 
+- Medidas de tendencia central; Histogramas (Listo_12_Histogramas)
+- Pruebas de normalidad  (Listo_19_pruebas_de_normalidad)
 
 # Semana 2
 
 ## Pruebas no paramétricas
-- Wilkinson ("t")  
-- Kruskal ("ANOVA")  
-- Post-Hoc  
+- Mann-Whitney ("u")  (Listo_16_Mann_Whitney)
+- Kruskal ("ANOVA"); Post-Hoc (Listo_15_Kruskal-Wallis)
 - Cajas y bigotes  (Seaborn)
+Graficar con Seaborn (Listo_11_graficar_con_seaborn)
 
 ## Pruebas paramétricas
 - t de Student  
-- ANOVA (I y II) vías  
-- Post-Hoc  
+- ANOVA (I y II) vías; Post-Hoc (Listo_10_ANOVA)
+ 
 
 # Semana 3
-## Regresión lineal  
-- Mínimos cuadrados  
-- p < 0.005  
+## Regresión lineal 
+- Mínimos cuadrados;p < 0.05; (Listo_18_Regresion_lineal) 
 
 ## Matriz de Correlación  
+Corrlación de Spearman (Listo_17_Correlacion_Spearman_Matriz; Listo_20_Correlacion_Spearman)
 ## FA  
 ## PCA  
 
@@ -113,3 +113,5 @@ Correcta presentación del Data Base
 # Semana 5
 ## Proyecto final  
 ## Evaluación
+## Material Suplementario
+Como subir un paper (Listo_14_ComoSubirPaper)

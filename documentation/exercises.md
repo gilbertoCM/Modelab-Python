@@ -1,6 +1,15 @@
 # Exercises 
 
 ## Exercises Week 1.
+
+***Git y GitHub***
+(Listo_13_Git_y_GitHub)
+1. Clonar el repositorio del curso 
+2. Crear una cuenta de github para realizar un repositorio para subir los ejercicios.
+
+**Conociendo VSCode y Jupyter**
+- Descargar paqueterias del video (Listo_09_2025-03-06 19-40-49)
+
 ### 01_hello_world
 ***Part 1: Printing "Hello, World!"***
 
@@ -35,6 +44,16 @@ Create composite functions that evaluate the absolute value of a number
 
 [Functions](https://www.w3schools.com/python/python_functions.asp)
 
+*Introducción a Pandas:*  
+[Pandas](https://www.w3schools.com/python/pandas/default.asp)  
+[Pandas_Intro](https://www.w3schools.com/python/pandas/pandas_intro.asp)  
+[Pandas_Get_Started](https://www.w3schools.com/python/pandas/pandas_getting_started.asp)  
+[Pandas_Dataframes](https://www.w3schools.com/python/pandas/pandas_dataframes.asp)  
+[Pandas_CSV](https://www.w3schools.com/python/pandas/pandas_csv.asp)  
+[Pandas_Analyzing](https://www.w3schools.com/python/pandas/pandas_analyzing.asp)
+
+
+## Week 2
 
 ### 05_missing_values 
 ### Exercises:  
@@ -58,7 +77,6 @@ Plot histogram of DIC and TA
 - Respond to the following question: When is it appropriate to use the Kolmogorov-Smirnov test instead of the Shapiro-Wilk test?
 - Based on the previous answer, perform the appropriate test to assess normality in the DIC (Dissolved Inorganic Carbon) and Salinity datasets.
 
-## Exercises Week 2
 ### 10_NonParametric_Mann_whitney
 Evaluate the Mann-Whitney U test for DIC and temperatura. Create boxplots and violin plots for these analyses.
 
@@ -70,5 +88,9 @@ Perform Kruskal-Wallis test and plot a box plot for DIC and temperature data.
 ## Exercises Week 3
 ### 13_Linear_regression
 Perform linear regressions of salinity vs temperature and dec vs salinity.
+
+### 14_spearman_correlation 
+Exercise: Create a function to compute the Pearson correlation
+
 
 

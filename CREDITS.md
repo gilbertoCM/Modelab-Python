@@ -16,9 +16,10 @@ This course is the result of a collaborative effort. The following individuals h
 
 ## Contributors
 
-- **Miranda [UNACAR]**  
-  Editing of manuals and curriculum  
-  Video editing for course materials
+- **Miranda Martínez Ortega**  
+  [mirandamo.o26@gmail.com](mailto:mirandamo.o26@gmail.com)
+  [Linkedin](https://www.linkedin.com/in/miranda-mart%C3%ADnez-a36111244/)
+  [GitHub](https://github.com/mirandamtz)
 
 - **Odalis [UNACAR]**  
   Editing of manuals and curriculum  

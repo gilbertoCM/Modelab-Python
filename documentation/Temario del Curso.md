@@ -8,6 +8,8 @@
 1. [Git](https://git-scm.com/)  
 2. [Anaconda](https://www.anaconda.com/)  
 3. [VSCode](https://code.visualstudio.com/)
+4. [Discord](https://discord.com/)
+   - [First_Stepts_In_Discord](https://www.youtube.com/watch?v=TGczdpowARw)
 
 >*(Extensiones de VSCode por descargar)*:  
 >   - Python  

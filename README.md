@@ -30,8 +30,8 @@ Follow these steps after installing the required programs:
 1. **Clone this repository:**
 
 ```bash
-git clone https://github.com/gilbertoCM/env_data_analysis_course.git
-cd env_data_analysis_course
+git clone https://github.com/gilbertoCM/Modelab-Python.git
+cd Modelab-Python
 ```
 
 2. **Create the Conda environment:**

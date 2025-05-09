@@ -1,3 +1,24 @@
 {
-    "python.REPL.enableREPLSmartSend": false
+  "python.defaultInterpreterPath": "python",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "notebook.lineNumbers": "on",
+  "notebook.output.wordWrap": "on",
+  "notebook.output.textLineLimit": 50,
+  "jupyter.askForKernelRestart": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "python.REPL.enableREPLSmartSend": false,
+  "jupyter.interactiveWindow.creationMode": "perFile"
 }

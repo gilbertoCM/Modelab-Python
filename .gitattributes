@@ -1,0 +1,3 @@
+*.ipynb filter=strip-notebook
+*.py text eol=lf
+*.ipynb text eol=lf

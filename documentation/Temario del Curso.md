@@ -32,7 +32,7 @@ Contenido del manual:
    - Introducción básica a GitHub  
 
 #### 3. Introducción a los temas del curso  
-- Git y GitHub (Listo_13_Git y GitHub)
+- [Como_se_utiliza_Git_y_GitHub_en_VSCode](https://youtu.be/JBnAnVUyRyE?si=5n5KEK7E6Xx8TdtT)
 - [Importancia_de_Python](https://www.youtube.com/watch?v=Rv910T1BJUw)  
 - [Python_Introduction](https://youtu.be/xkZMUX_oQX4?si=C9e3thBStqIlRfy3)
 
@@ -40,31 +40,27 @@ Contenido del manual:
 Vscode: Primeros pasos y extensiones  
    - (Listo_09_2025-03-06 19-40-49)
 
-Jupyter: Primeros pasos *hola mundo*  
-   - (LISTO_01_2025-02_12 14-19-52_v2)
+[Primeros_pasos_en_VSCode_y_Jupyter](https://youtu.be/SkmbKHlhWzk?si=5BHd_CPiyEE5zqsW)
 
-Jupyter + Markdown  
-   - (LISTO_02_2025-02-12 18-26-38_v2)
+[Introducción_Jupyter_y_Markdown](https://youtu.be/2D8_KRcl7lk?si=Sdl4vInf8tKDyw6-)  
+
 
 ##### Recurso en línea Sintaxis Básica  
 [Sintaxis_Basica_I](https://youtu.be/yppT6GPZMyo?si=1IyQs0r0fanB4ioj)  
 [Sintaxis_Básica_II_Tipos_operadores_y_variables](https://youtu.be/u4I9PqhqCo8?si=TAC1VbSKIgvXk08g)  
 [Indentación_en_python](https://youtube.com/shorts/YgFDbALg4D4?si=cx4neahOT3YPQxOo)
 
-Funciones en Python  
-   - Listo_03_2025-02-12 18-41-04_v3
+[Explicación_de_funciones_sencillas_en_Python](https://youtu.be/AZjntBatVxw?si=M5h2uyVfZ46SxogM)  
 
 ##### Recurso en línea Funciones básicas  
 [Funciones_I](https://youtu.be/VY448UWAQ_0?si=vA94xI7qFzEE0EMc)  
 [Funciones_II](https://youtu.be/vawEHhV_HFA?si=WqGEZehuBaaExwV4)
 
-Estructura de base de datos, archivos CSV  
-   - Listo_04_2025-02-12 13-38-44_v2
-
-Lectura de archivos CSV  
-   - Listo_05_2025-02-13 13-30-38_v2
-
 # Bases de datos (CSV)
+
+[Trabajando_con_bases_de_datos_en_CSV](https://youtu.be/tQk3RCiuzyY?si=zj15ehJZgdNOWDS0) 
+
+[Lectura_base_de_CSV_datos_usando_Pandas](https://youtu.be/_hbih-yofKk?si=7kqU8hzVtw8lfIVt)  
 
 Corrección de errores en la Base de Datos  
    - Listo_07_2025-02-28 19-21-41
@@ -72,8 +68,7 @@ Corrección de errores en la Base de Datos
 Exploración de data frames con Pandas  
    - Listo_08_2025-03-06 19-18-59
 
-Correcta presentación del Data Base  
-   - Listo_06_2025-02-28 18-52-10
+[Lectura_de_la_base_de_datos_Dataframe](https://youtu.be/CJQL5IDZVsM?si=6ULe1TG7D4xiEHJE)
 
 *Introducción a Pandas:*  
 [Pandas](https://www.w3schools.com/python/pandas/default.asp)  
@@ -84,16 +79,15 @@ Correcta presentación del Data Base
 [Pandas_Analyzing](https://www.w3schools.com/python/pandas/pandas_analyzing.asp)
 
 ## Estadística descriptiva 
-- Medidas de tendencia central; Histogramas (Listo_12_Histogramas)
-- Pruebas de normalidad  (Listo_19_pruebas_de_normalidad)
+- [Realización_de_histogramas_simples_con_Python](https://youtu.be/9RIdWyRpdTo?si=nbzszsA2mqG-ucOZ)
+- [Pruebas_de_normalidad_usando_python](https://youtu.be/-JeP6bDTMJQ?si=MOre1aOMlXn1ODFf)
 
 # Semana 2
 
 ## Pruebas no paramétricas
-- Mann-Whitney ("u")  (Listo_16_Mann_Whitney)
-- Kruskal ("ANOVA"); Post-Hoc (Listo_15_Kruskal-Wallis)
-- Cajas y bigotes  (Seaborn)
-Graficar con Seaborn (Listo_11_graficar_con_seaborn)
+- [Mann_Whitney_usando_pyhton](https://youtu.be/Zyg5NM_wFOY?si=uSi8c7_F-6unD-F9)
+- [Explicación_del_script_para_realizar_la_prueba_de_Kruskal_wallis](https://youtu.be/0ghPkCibjw4?si=cwd9cEg3T7brVfq6)
+- [Explicación_de_como_se_realizan_distintos_gráficos_con_la_paquetería_seaborn](https://youtu.be/6njwebJUGSQ?si=JahKAO_4FJtTefpp)
 
 ## Pruebas paramétricas
 - t de Student  
@@ -102,10 +96,11 @@ Graficar con Seaborn (Listo_11_graficar_con_seaborn)
 
 # Semana 3
 ## Regresión lineal 
-- Mínimos cuadrados;p < 0.05; (Listo_18_Regresion_lineal) 
+- [Regresión_lineal_usando_python](https://youtu.be/EYyBxGvu1AY?si=_-rC_Zx9dqhaINOG) 
 
 ## Matriz de Correlación  
-Corrlación de Spearman (Listo_17_Correlacion_Spearman_Matriz; Listo_20_Correlacion_Spearman)
+- [Correlación_Spearman_Matriz_usando_python](https://youtu.be/Xxsvw-vn1ss?si=X1HE0JB-N8cO6GIS)
+- [Correlación_Spearman_usando_python](https://youtu.be/VWQCudeG7lA?si=pdpmFP6yhB4KkMEm)
 ## FA  
 ## PCA  
 

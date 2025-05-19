@@ -74,7 +74,7 @@ Contenido del manual:
 
 ## Estadística descriptiva 
 - [Realización_de_histogramas_simples_con_Python -11](https://youtu.be/9RIdWyRpdTo)
-- [Usando Seaborn para visualización de datos estadísticos - 12]
+- [Usando Seaborn para visualización de datos estadísticos - 12](https://youtu.be/xW3TIMh04I4)
 - [Pruebas_de_normalidad_usando_python - 13](https://youtu.be/-JeP6bDTMJQ)
 
 
@@ -86,16 +86,17 @@ Contenido del manual:
 
 ## Pruebas paramétricas
 - t de Student  
-- ANOVA (I y II) vías; Post-Hoc (Listo_10_ANOVA)
+- [Scrip para calcular ANOVA de una vía - 16](https://youtu.be/pCBKvoPNRzs)
  
 
 # Semana 3
 ## Regresión lineal 
-- [Regresión_lineal_usando_python](https://youtu.be/EYyBxGvu1AY?si=_-rC_Zx9dqhaINOG) 
+- [Regresión_lineal_usando_python - 17](https://youtu.be/EYyBxGvu1AY) 
 
-## Matriz de Correlación  
-- [Correlación_Spearman_Matriz_usando_python](https://youtu.be/Xxsvw-vn1ss?si=X1HE0JB-N8cO6GIS)
-- [Correlación_Spearman_usando_python](https://youtu.be/VWQCudeG7lA?si=pdpmFP6yhB4KkMEm)
+## Matriz de Correlación
+- [Correlación_Spearman_usando_python - 18](https://youtu.be/VWQCudeG7lA)
+- [Correlación_Spearman_Matriz_usando_python -19](https://youtu.be/Xxsvw-vn1ss)
+
 ## FA  
 ## PCA  
 

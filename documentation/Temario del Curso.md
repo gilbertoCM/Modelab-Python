@@ -44,14 +44,13 @@ Contenido del manual:
 
 - [Primeros_pasos_en_VSCode_y_Jupyter - 04](https://youtu.be/SkmbKHlhWzk?si=5BHd_CPiyEE5zqsW)
 - [Introducción_Jupyter_y_Markdown - 05](https://youtu.be/2D8_KRcl7lk?si=Sdl4vInf8tKDyw6-)  
-
+- [Introduccion_a_las_funciones_en Python - 06](https://youtu.be/AZjntBatVxw)  
 
 ##### Recurso en línea Sintaxis Básica  
 [Sintaxis_Basica_I](https://youtu.be/yppT6GPZMyo?si=1IyQs0r0fanB4ioj)  
 [Sintaxis_Básica_II_Tipos_operadores_y_variables](https://youtu.be/u4I9PqhqCo8?si=TAC1VbSKIgvXk08g)  
 [Indentación_en_python](https://youtube.com/shorts/YgFDbALg4D4?si=cx4neahOT3YPQxOo)
 
-[Explicación_de_funciones_sencillas_en_Python](https://youtu.be/AZjntBatVxw?si=M5h2uyVfZ46SxogM)  
 
 ##### Recursos en línea Funciones básicas  
 [Funciones_I](https://youtu.be/VY448UWAQ_0?si=vA94xI7qFzEE0EMc)  
@@ -59,18 +58,12 @@ Contenido del manual:
 
 # Bases de datos (CSV)
 
-[Crear un archivo_CSV (base de datos) apartir de un Excel - 06](https://youtu.be/tQk3RCiuzyY?si=zj15ehJZgdNOWDS0)
-[Exploración de un dataframe usando pandas - 07](https://youtu.be/CJQL5IDZVsM)
-[Lectura_base_de_CSV_datos_usando_Pandas](https://youtu.be/_hbih-yofKk?si=7kqU8hzVtw8lfIVt)  
+[Crear un archivo_CSV (base de datos) apartir de un Excel - 07](https://youtu.be/tQk3RCiuzyY?si=zj15ehJZgdNOWDS0)
+[Lectura base de CSV datos usando Pandas - 08](https://youtu.be/_hbih-yofKk)
+[Creamos una tabla para Word con la media más menos desviación entandar - 09](https://youtu.be/CJQL5IDZVsM)
+[Manejo de datos faltantes (huecos) en la base de datos -10](https://youtu.be/JisDAKzMnA4)  
 
-Corrección de errores en la Base de Datos  
-   - Listo_07_2025-02-28 19-21-41
-
-Exploración de data frames con Pandas  
-   - Listo_08_2025-03-06 19-18-59
-
-[Lectura_de_la_base_de_datos_Dataframe](https://youtu.be/CJQL5IDZVsM?si=6ULe1TG7D4xiEHJE)
-
+##### Recursos en línea
 *Introducción a Pandas:*  
 [Pandas](https://www.w3schools.com/python/pandas/default.asp)  
 [Pandas_Intro](https://www.w3schools.com/python/pandas/pandas_intro.asp)  
@@ -80,15 +73,16 @@ Exploración de data frames con Pandas
 [Pandas_Analyzing](https://www.w3schools.com/python/pandas/pandas_analyzing.asp)
 
 ## Estadística descriptiva 
-- [Realización_de_histogramas_simples_con_Python](https://youtu.be/9RIdWyRpdTo?si=nbzszsA2mqG-ucOZ)
-- [Pruebas_de_normalidad_usando_python](https://youtu.be/-JeP6bDTMJQ?si=MOre1aOMlXn1ODFf)
+- [Realización_de_histogramas_simples_con_Python -11](https://youtu.be/9RIdWyRpdTo)
+- [Usando Seaborn para visualización de datos estadísticos - 12]
+- [Pruebas_de_normalidad_usando_python - 13](https://youtu.be/-JeP6bDTMJQ)
+
 
 # Semana 2
 
 ## Pruebas no paramétricas
-- [Mann_Whitney_usando_pyhton](https://youtu.be/Zyg5NM_wFOY?si=uSi8c7_F-6unD-F9)
-- [Explicación_del_script_para_realizar_la_prueba_de_Kruskal_wallis](https://youtu.be/0ghPkCibjw4?si=cwd9cEg3T7brVfq6)
-- [Explicación_de_como_se_realizan_distintos_gráficos_con_la_paquetería_seaborn](https://youtu.be/6njwebJUGSQ?si=JahKAO_4FJtTefpp)
+- [Mann_Whitney_usando_pyhton - 14](https://youtu.be/Zyg5NM_wFOY)
+- [Script_para_realizar_la_prueba_de_Kruskal_wallis - 15](https://youtu.be/0ghPkCibjw4?si=cwd9cEg3T7brVfq6)
 
 ## Pruebas paramétricas
 - t de Student  

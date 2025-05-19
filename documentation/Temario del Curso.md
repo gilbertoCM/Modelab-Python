@@ -40,9 +40,10 @@ Contenido del manual:
 - [Python_Introduction](https://youtu.be/xkZMUX_oQX4?si=C9e3thBStqIlRfy3)
 
 #### Conociendo VSCODE y Jupyter  
-[Instalacion de paquetes VSCODE - 03](https://youtu.be/fj7_qAt9Cxc) 
-[Primeros_pasos_en_VSCode_y_Jupyter - 04](https://youtu.be/SkmbKHlhWzk?si=5BHd_CPiyEE5zqsW)
-[Introducción_Jupyter_y_Markdown - 05](https://youtu.be/2D8_KRcl7lk?si=Sdl4vInf8tKDyw6-)  
+- [Instalacion de paquetes VSCODE - 03](https://youtu.be/fj7_qAt9Cxc)
+
+- [Primeros_pasos_en_VSCode_y_Jupyter - 04](https://youtu.be/SkmbKHlhWzk?si=5BHd_CPiyEE5zqsW)
+- [Introducción_Jupyter_y_Markdown - 05](https://youtu.be/2D8_KRcl7lk?si=Sdl4vInf8tKDyw6-)  
 
 
 ##### Recurso en línea Sintaxis Básica  

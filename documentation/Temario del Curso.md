@@ -32,17 +32,17 @@ Contenido del manual:
    - Introducción básica a GitHub  
 
 #### 3. Introducción a los temas del curso  
-- [Como_se_utiliza_Git_y_GitHub_en_VSCode](https://youtu.be/JBnAnVUyRyE?si=5n5KEK7E6Xx8TdtT)
+- [Como_se_utiliza_Git_y_GitHub_en_VSCode -02](https://youtu.be/JBnAnVUyRyE?si=5n5KEK7E6Xx8TdtT)
+
+
+##### Recursos en línea Funciones básicas 
 - [Importancia_de_Python](https://www.youtube.com/watch?v=Rv910T1BJUw)  
 - [Python_Introduction](https://youtu.be/xkZMUX_oQX4?si=C9e3thBStqIlRfy3)
 
 #### Conociendo VSCODE y Jupyter  
-Vscode: Primeros pasos y extensiones  
-   - (Listo_09_2025-03-06 19-40-49)
-
-[Primeros_pasos_en_VSCode_y_Jupyter](https://youtu.be/SkmbKHlhWzk?si=5BHd_CPiyEE5zqsW)
-
-[Introducción_Jupyter_y_Markdown](https://youtu.be/2D8_KRcl7lk?si=Sdl4vInf8tKDyw6-)  
+[Instalacion de paquetes VSCODE - 03](https://youtu.be/fj7_qAt9Cxc) 
+[Primeros_pasos_en_VSCode_y_Jupyter - 04](https://youtu.be/SkmbKHlhWzk?si=5BHd_CPiyEE5zqsW)
+[Introducción_Jupyter_y_Markdown - 05](https://youtu.be/2D8_KRcl7lk?si=Sdl4vInf8tKDyw6-)  
 
 
 ##### Recurso en línea Sintaxis Básica  
@@ -52,14 +52,14 @@ Vscode: Primeros pasos y extensiones
 
 [Explicación_de_funciones_sencillas_en_Python](https://youtu.be/AZjntBatVxw?si=M5h2uyVfZ46SxogM)  
 
-##### Recurso en línea Funciones básicas  
+##### Recursos en línea Funciones básicas  
 [Funciones_I](https://youtu.be/VY448UWAQ_0?si=vA94xI7qFzEE0EMc)  
 [Funciones_II](https://youtu.be/vawEHhV_HFA?si=WqGEZehuBaaExwV4)
 
 # Bases de datos (CSV)
 
-[Trabajando_con_bases_de_datos_en_CSV](https://youtu.be/tQk3RCiuzyY?si=zj15ehJZgdNOWDS0) 
-
+[Crear un archivo_CSV (base de datos) apartir de un Excel - 06](https://youtu.be/tQk3RCiuzyY?si=zj15ehJZgdNOWDS0)
+[Exploración de un dataframe usando pandas - 07](https://youtu.be/CJQL5IDZVsM)
 [Lectura_base_de_CSV_datos_usando_Pandas](https://youtu.be/_hbih-yofKk?si=7kqU8hzVtw8lfIVt)  
 
 Corrección de errores en la Base de Datos  

@@ -58,10 +58,11 @@ Contenido del manual:
 
 # Bases de datos (CSV)
 
-[Crear un archivo_CSV (base de datos) apartir de un Excel - 07](https://youtu.be/tQk3RCiuzyY?si=zj15ehJZgdNOWDS0)
-[Lectura base de CSV datos usando Pandas - 08](https://youtu.be/_hbih-yofKk)
-[Creamos una tabla para Word con la media más menos desviación entandar - 09](https://youtu.be/CJQL5IDZVsM)
-[Manejo de datos faltantes (huecos) en la base de datos -10](https://youtu.be/JisDAKzMnA4)  
+- [Crear un archivo_CSV (base de datos) apartir de un Excel - 07](https://youtu.be/tQk3RCiuzyY?si=zj15ehJZgdNOWDS0)
+- [Lectura base de CSV datos usando Pandas - 08](https://youtu.be/_hbih-yofKk)
+- [Estadistica descriptiva de un dataframe - 09](https://youtu.be/6uwUSRgQqYk)
+- [Creamos una tabla para Word con la media más menos desviación entandar - 10](https://youtu.be/CJQL5IDZVsM)
+- [Manejo de datos faltantes (huecos) en la base de datos -11](https://youtu.be/JisDAKzMnA4)  
 
 ##### Recursos en línea
 *Introducción a Pandas:*  
@@ -73,29 +74,29 @@ Contenido del manual:
 [Pandas_Analyzing](https://www.w3schools.com/python/pandas/pandas_analyzing.asp)
 
 ## Estadística descriptiva 
-- [Realización_de_histogramas_simples_con_Python -11](https://youtu.be/9RIdWyRpdTo)
-- [Usando Seaborn para visualización de datos estadísticos - 12](https://youtu.be/xW3TIMh04I4)
-- [Pruebas_de_normalidad_usando_python - 13](https://youtu.be/-JeP6bDTMJQ)
+- [Realización_de_histogramas_simples_con_Python -12](https://youtu.be/9RIdWyRpdTo)
+- [Usando Seaborn para visualización de datos estadísticos - 13](https://youtu.be/xW3TIMh04I4)
+- [Pruebas_de_normalidad_usando_python - 14](https://youtu.be/-JeP6bDTMJQ)
 
 
 # Semana 2
 
 ## Pruebas no paramétricas
-- [Mann_Whitney_usando_pyhton - 14](https://youtu.be/Zyg5NM_wFOY)
-- [Script_para_realizar_la_prueba_de_Kruskal_wallis - 15](https://youtu.be/0ghPkCibjw4?si=cwd9cEg3T7brVfq6)
+- [Mann_Whitney_usando_pyhton - 15](https://youtu.be/Zyg5NM_wFOY)
+- [Script_para_realizar_la_prueba_de_Kruskal_wallis - 16](https://youtu.be/0ghPkCibjw4?si=cwd9cEg3T7brVfq6)
 
 ## Pruebas paramétricas
 - t de Student  
-- [Scrip para calcular ANOVA de una vía - 16](https://youtu.be/pCBKvoPNRzs)
+- [Scrip para calcular ANOVA de una vía - 17](https://youtu.be/pCBKvoPNRzs)
  
 
 # Semana 3
 ## Regresión lineal 
-- [Regresión_lineal_usando_python - 17](https://youtu.be/EYyBxGvu1AY) 
+- [Regresión_lineal_usando_python - 18](https://youtu.be/EYyBxGvu1AY) 
 
 ## Matriz de Correlación
-- [Correlación_Spearman_usando_python - 18](https://youtu.be/VWQCudeG7lA)
-- [Correlación_Spearman_Matriz_usando_python -19](https://youtu.be/Xxsvw-vn1ss)
+- [Correlación_Spearman_usando_python - 19](https://youtu.be/VWQCudeG7lA)
+- [Matriz de correlacion Spearman usando Python - 20](https://youtu.be/Xxsvw-vn1ss)
 
 ## FA  
 ## PCA  

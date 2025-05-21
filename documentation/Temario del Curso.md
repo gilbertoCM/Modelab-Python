@@ -32,49 +32,39 @@ Contenido del manual:
    - Introducción básica a GitHub  
 
 #### 3. Introducción a los temas del curso  
-- Git y GitHub (Listo_13_Git y GitHub)
+- [Como_se_utiliza_Git_y_GitHub_en_VSCode -02](https://youtu.be/JBnAnVUyRyE?si=5n5KEK7E6Xx8TdtT)
+
+
+##### Recursos en línea Funciones básicas 
 - [Importancia_de_Python](https://www.youtube.com/watch?v=Rv910T1BJUw)  
 - [Python_Introduction](https://youtu.be/xkZMUX_oQX4?si=C9e3thBStqIlRfy3)
 
 #### Conociendo VSCODE y Jupyter  
-Vscode: Primeros pasos y extensiones  
-   - (Listo_09_2025-03-06 19-40-49)
+- [Instalacion de paquetes VSCODE - 03](https://youtu.be/fj7_qAt9Cxc)
 
-Jupyter: Primeros pasos *hola mundo*  
-   - (LISTO_01_2025-02_12 14-19-52_v2)
-
-Jupyter + Markdown  
-   - (LISTO_02_2025-02-12 18-26-38_v2)
+- [Primeros_pasos_en_VSCode_y_Jupyter - 04](https://youtu.be/SkmbKHlhWzk?si=5BHd_CPiyEE5zqsW)
+- [Introducción_Jupyter_y_Markdown - 05](https://youtu.be/2D8_KRcl7lk?si=Sdl4vInf8tKDyw6-)  
+- [Introduccion_a_las_funciones_en Python - 06](https://youtu.be/AZjntBatVxw)  
 
 ##### Recurso en línea Sintaxis Básica  
 [Sintaxis_Basica_I](https://youtu.be/yppT6GPZMyo?si=1IyQs0r0fanB4ioj)  
 [Sintaxis_Básica_II_Tipos_operadores_y_variables](https://youtu.be/u4I9PqhqCo8?si=TAC1VbSKIgvXk08g)  
 [Indentación_en_python](https://youtube.com/shorts/YgFDbALg4D4?si=cx4neahOT3YPQxOo)
 
-Funciones en Python  
-   - Listo_03_2025-02-12 18-41-04_v3
 
-##### Recurso en línea Funciones básicas  
+##### Recursos en línea Funciones básicas  
 [Funciones_I](https://youtu.be/VY448UWAQ_0?si=vA94xI7qFzEE0EMc)  
 [Funciones_II](https://youtu.be/vawEHhV_HFA?si=WqGEZehuBaaExwV4)
 
-Estructura de base de datos, archivos CSV  
-   - Listo_04_2025-02-12 13-38-44_v2
-
-Lectura de archivos CSV  
-   - Listo_05_2025-02-13 13-30-38_v2
-
 # Bases de datos (CSV)
 
-Corrección de errores en la Base de Datos  
-   - Listo_07_2025-02-28 19-21-41
+- [Crear un archivo_CSV (base de datos) apartir de un Excel - 07](https://youtu.be/tQk3RCiuzyY?si=zj15ehJZgdNOWDS0)
+- [Lectura base de CSV datos usando Pandas - 08](https://youtu.be/_hbih-yofKk)
+- [Estadistica descriptiva de un dataframe - 09](https://youtu.be/6uwUSRgQqYk)
+- [Creamos una tabla para Word con la media más menos desviación entandar - 10](https://youtu.be/CJQL5IDZVsM)
+- [Manejo de datos faltantes (huecos) en la base de datos -11](https://youtu.be/JisDAKzMnA4)  
 
-Exploración de data frames con Pandas  
-   - Listo_08_2025-03-06 19-18-59
-
-Correcta presentación del Data Base  
-   - Listo_06_2025-02-28 18-52-10
-
+##### Recursos en línea
 *Introducción a Pandas:*  
 [Pandas](https://www.w3schools.com/python/pandas/default.asp)  
 [Pandas_Intro](https://www.w3schools.com/python/pandas/pandas_intro.asp)  
@@ -84,28 +74,30 @@ Correcta presentación del Data Base
 [Pandas_Analyzing](https://www.w3schools.com/python/pandas/pandas_analyzing.asp)
 
 ## Estadística descriptiva 
-- Medidas de tendencia central; Histogramas (Listo_12_Histogramas)
-- Pruebas de normalidad  (Listo_19_pruebas_de_normalidad)
+- [Realización_de_histogramas_simples_con_Python -12](https://youtu.be/9RIdWyRpdTo)
+- [Usando Seaborn para visualización de datos estadísticos - 13](https://youtu.be/xW3TIMh04I4)
+- [Pruebas_de_normalidad_usando_python - 14](https://youtu.be/-JeP6bDTMJQ)
+
 
 # Semana 2
 
 ## Pruebas no paramétricas
-- Mann-Whitney ("u")  (Listo_16_Mann_Whitney)
-- Kruskal ("ANOVA"); Post-Hoc (Listo_15_Kruskal-Wallis)
-- Cajas y bigotes  (Seaborn)
-Graficar con Seaborn (Listo_11_graficar_con_seaborn)
+- [Mann_Whitney_usando_pyhton - 15](https://youtu.be/Zyg5NM_wFOY)
+- [Script_para_realizar_la_prueba_de_Kruskal_wallis - 16](https://youtu.be/0ghPkCibjw4?si=cwd9cEg3T7brVfq6)
 
 ## Pruebas paramétricas
 - t de Student  
-- ANOVA (I y II) vías; Post-Hoc (Listo_10_ANOVA)
+- [Scrip para calcular ANOVA de una vía - 17](https://youtu.be/pCBKvoPNRzs)
  
 
 # Semana 3
 ## Regresión lineal 
-- Mínimos cuadrados;p < 0.05; (Listo_18_Regresion_lineal) 
+- [Regresión_lineal_usando_python - 18](https://youtu.be/EYyBxGvu1AY) 
 
-## Matriz de Correlación  
-Corrlación de Spearman (Listo_17_Correlacion_Spearman_Matriz; Listo_20_Correlacion_Spearman)
+## Matriz de Correlación
+- [Correlación_Spearman_usando_python - 19](https://youtu.be/VWQCudeG7lA)
+- [Matriz de correlacion Spearman usando Python - 20](https://youtu.be/Xxsvw-vn1ss)
+
 ## FA  
 ## PCA  
 

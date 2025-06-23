@@ -108,4 +108,3 @@ Contenido del manual:
 ## Proyecto final  
 ## Evaluación
 ## Material Suplementario
-Como subir un paper (Listo_14_ComoSubirPaper)

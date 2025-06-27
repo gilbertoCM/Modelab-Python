@@ -6,7 +6,6 @@ __pycache__/
 *.log
 *.tmp
 *.bak
-*.csv
 *.tsv
 *.xls
 *.xlsx
@@ -34,4 +33,3 @@ Thumbs.db
 .vscode/*.code-workspace
 .vscode/extensions.json
 *.yml
-!environment.yml

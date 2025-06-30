@@ -5,46 +5,31 @@ channels:
 
 dependencies:
   # --- Core Python and Jupyter ---
-  - python=3.10                 # Stable Python version compatible with all listed packages
-  - ipykernel                   # Kernel interface for Jupyter
-  - jupyterlab                  # JupyterLab interface
-  - notebook                    # Classic Jupyter notebook support
-  - ipywidgets                  # Interactive widgets
-  - jupyterlab_widgets          # Support for ipywidgets in JupyterLab
+  - python=3.10
+  - ipykernel
+  - jupyterlab
+  - ipywidgets
 
   # --- Data manipulation and scientific computing ---
-  - numpy                       # Core numerical operations
-  - pandas                      # Data manipulation and analysis
-  - xarray                      # N-dimensional labeled arrays, ideal for NetCDF
-  - scipy                       # Scientific and statistical functions
-  - statsmodels                # Statistical modeling (regression, ANOVA, etc.)
-  - scikit-learn                # Machine learning and dimensionality reduction
+  - numpy
+  - pandas
+  - xarray
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - scikit-bio
 
-  # --- Geospatial and environmental data ---
-  - geopandas                  # Spatial data analysis in pandas style
-  - shapely                     # Geometric operations
-  - pyproj                      # Coordinate reference systems
-  - rasterio                    # Raster file reading and writing
-  - cartopy                     # Cartographic tools for Python
-  - basemap                     # Older map plotting library, still useful in some contexts
-
-  # --- Data visualization ---
-  - matplotlib                  # Core plotting library
-  - seaborn                     # Statistical data visualization built on matplotlib
-
-  # --- File formats and I/O ---
-  - netcdf4                     # Reading and writing NetCDF files
-  - h5netcdf                    # HDF5-based backend for NetCDF
-  - h5py                        # Interface to HDF5 binary data format
+  # --- Visualization ---
+  - matplotlib
+  - seaborn
 
   # --- Utilities and code formatting ---
-  - black                       # Automatic code formatter (PEP8)
-  - pip                         # Needed to install packages not available via conda
+  - black
+  - pip
+  - nbstripout
+  - nbdime
 
   # --- Pip-only packages ---
   - pip:
-      - factor_analyzer         # Factor analysis and related statistical models
-      - scikit-posthocs         # Post hoc statistical tests (e.g., Dunn, Conover)
-      - scikit-bio              # Bioinformatics and ecological analysis
-      - nbstripout              # Strips outputs from Jupyter notebooks for clean Git commits
-      - nbdime                  # Tools to diff and merge Jupyter notebooks
+      - factor_analyzer
+      - scikit-posthocs

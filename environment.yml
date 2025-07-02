@@ -4,13 +4,13 @@ channels:
   - defaults
 
 dependencies:
-  # --- Core Python and Jupyter ---
+  # --- Núcleo de Python y Jupyter ---
   - python=3.10
   - ipykernel
   - jupyterlab
   - ipywidgets
 
-  # --- Data manipulation and scientific computing ---
+  # --- Manipulación de datos y cómputo científico ---
   - numpy
   - pandas
   - xarray
@@ -19,17 +19,15 @@ dependencies:
   - scikit-learn
   - scikit-bio
 
-  # --- Visualization ---
+  # --- Visualización ---
   - matplotlib
   - seaborn
 
-  # --- Utilities and code formatting ---
+  # --- Utilidades y formato de código ---
   - black
   - pip
-  - nbstripout
-  - nbdime
 
-  # --- Pip-only packages ---
+  # --- Paquetes desde pip ---
   - pip:
       - factor_analyzer
       - scikit-posthocs

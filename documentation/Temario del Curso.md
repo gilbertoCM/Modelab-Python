@@ -19,32 +19,41 @@
 >   - Rainbow CSV  
 >   - Data Wrangler  
 >
->**Nota: Son necesarias para el correcto manejo de las herramientas del curso.**
+>**NOTA: SON NECESARIAS PARA EL CORRECTO MANEJO DE LAS HERRAMIENTAS DEL CURSO.**
 
 #### 2. Introducción a Git  
-[Manual_de_Git](https://github.com/gilbertoCM/Modelab-Python/tree/a9a01229b48782b75a2381d7e04c7f5e52405db4/manuals/git_manuals)
+Contenido de los manuales de Git y GitHub:
 
-Contenido del manual:
-   - Gitbash  
-   - Crear un repositorio nuevo  
-   - Clonar el repositorio del curso  
+**NOTA: ESTOS MANUALES SE ENCUENTRAN TANTO EN INGLÉS COMO EN ESPAÑOL (SE LOCALIZAN EN LA CARPETA DE "MANUALS")**
+
+[Git_Manual](../manuals/git_manuals/git_manual_esp.md)
+   - Gitbash (En terminal)  
+
+[GitHub_Manual](../manuals/git_manuals/github_manual_esp.md)
+   - Creación de un repositorio nuevo  
+   - Clonación del repositorio del curso  
    - Conocer el repositorio  
-   - Introducción básica a GitHub  
+   - Introducción básica al funcionamiento de GitHub  
 
-#### 3. Introducción a los temas del curso  
-- [Como_se_utiliza_Git_y_GitHub_en_VSCode -02](https://youtu.be/JBnAnVUyRyE?si=5n5KEK7E6Xx8TdtT)
+- [Como_se_utiliza_Git_y_GitHub_en_VSCode_02](https://youtu.be/JBnAnVUyRyE?si=5n5KEK7E6Xx8TdtT)
 
 
 ##### Recursos en línea Funciones básicas 
 - [Importancia_de_Python](https://www.youtube.com/watch?v=Rv910T1BJUw)  
 - [Python_Introduction](https://youtu.be/xkZMUX_oQX4?si=C9e3thBStqIlRfy3)
 
-#### Conociendo VSCODE y Jupyter  
-- [Instalacion de paquetes VSCODE - 03](https://youtu.be/fj7_qAt9Cxc)
 
-- [Primeros_pasos_en_VSCode_y_Jupyter - 04](https://youtu.be/SkmbKHlhWzk?si=5BHd_CPiyEE5zqsW)
-- [Introducción_Jupyter_y_Markdown - 05](https://youtu.be/2D8_KRcl7lk?si=Sdl4vInf8tKDyw6-)  
-- [Introduccion_a_las_funciones_en Python - 06](https://youtu.be/AZjntBatVxw)  
+#### 3. Introducción a los temas del curso  
+- [Instalacion de paquetes VSCODE_03](https://youtu.be/fj7_qAt9Cxc)
+
+- [Primeros_pasos_en_VSCode_y_Jupyter_04](https://youtu.be/SkmbKHlhWzk?si=5BHd_CPiyEE5zqsW)
+
+- [Introducción_Jupyter_y_Markdown_05](https://youtu.be/2D8_KRcl7lk?si=Sdl4vInf8tKDyw6-)  
+   - [Script_Markdown](../scripts/00_markdown.ipynb)
+   - [Script_Hello_world](../scripts/01_hello_world.ipynb)
+
+- [Introduccion_a_las_funciones_en Python_06](https://youtu.be/AZjntBatVxw)  
+   - [Script_functions](../scripts/01_hello_world.ipynb)
 
 ##### Recurso en línea Sintaxis Básica  
 [Sintaxis_Basica_I](https://youtu.be/yppT6GPZMyo?si=1IyQs0r0fanB4ioj)  
@@ -57,12 +66,16 @@ Contenido del manual:
 [Funciones_II](https://youtu.be/vawEHhV_HFA?si=WqGEZehuBaaExwV4)
 
 # Bases de datos (CSV)
+- [Crear un archivo_CSV (base de datos) apartir de un Excel_07](https://youtu.be/tQk3RCiuzyY?si=zj15ehJZgdNOWDS0)
+- [Lectura base de CSV datos usando Pandas_08](https://youtu.be/_hbih-yofKk)
+- [Estadistica descriptiva de un dataframe_09](https://youtu.be/6uwUSRgQqYk)
+- [Creamos una tabla para Word con la media más menos desviación entandar_10](https://youtu.be/CJQL5IDZVsM)
+- [Manejo de datos faltantes (huecos) en la base de datos_11](https://youtu.be/JisDAKzMnA4)  
 
-- [Crear un archivo_CSV (base de datos) apartir de un Excel - 07](https://youtu.be/tQk3RCiuzyY?si=zj15ehJZgdNOWDS0)
-- [Lectura base de CSV datos usando Pandas - 08](https://youtu.be/_hbih-yofKk)
-- [Estadistica descriptiva de un dataframe - 09](https://youtu.be/6uwUSRgQqYk)
-- [Creamos una tabla para Word con la media más menos desviación entandar - 10](https://youtu.be/CJQL5IDZVsM)
-- [Manejo de datos faltantes (huecos) en la base de datos -11](https://youtu.be/JisDAKzMnA4)  
+   - [Script_explore_data_frame](../scripts/03_explore_data_frame.ipynb)
+   - [Script_missing_values](../scripts/04_missing_values.ipynb)
+   - [Script_group_by_categorical_coloumns](../scripts/05_group_by_categorical_column.ipynb)
+
 
 ##### Recursos en línea
 *Introducción a Pandas:*  
@@ -74,32 +87,49 @@ Contenido del manual:
 [Pandas_Analyzing](https://www.w3schools.com/python/pandas/pandas_analyzing.asp)
 
 ## Estadística descriptiva 
-- [Realización_de_histogramas_simples_con_Python -12](https://youtu.be/9RIdWyRpdTo)
-- [Usando Seaborn para visualización de datos estadísticos - 13](https://youtu.be/xW3TIMh04I4)
-- [Pruebas_de_normalidad_usando_python - 14](https://youtu.be/-JeP6bDTMJQ)
+- [Realización_de_histogramas_simples_con_Python_12](https://youtu.be/9RIdWyRpdTo)
+   - [Script_plot_descriptive_statistics_matplotib](../scripts/06_plot_descriptive_statistics_matplotib.ipynb)
+
+- [Usando Seaborn para visualización de datos estadísticos_13](https://youtu.be/xW3TIMh04I4)
+   - [Script_plot_descriptive_statistics_seaborn](../scripts/07_plot_descriptive_statistics_seaborn.ipynb)
+
+- [Pruebas_de_normalidad_usando_python_14](https://youtu.be/-JeP6bDTMJQ)
+   - [Script_normality_tests](../scripts/08_normality_tests.ipynb)
 
 
 # Semana 2
 
 ## Pruebas no paramétricas
-- [Mann_Whitney_usando_pyhton - 15](https://youtu.be/Zyg5NM_wFOY)
-- [Script_para_realizar_la_prueba_de_Kruskal_wallis - 16](https://youtu.be/0ghPkCibjw4?si=cwd9cEg3T7brVfq6)
+- [Mann_Whitney_usando_pyhton_15](https://youtu.be/Zyg5NM_wFOY)
+   - [Script_nonparametric_mann_whitney](../scripts/09_nonparametric_mann_whitney.ipynb)
+
+- [Script_para_realizar_la_prueba_de_Kruskal_wallis_16](https://youtu.be/0ghPkCibjw4?si=cwd9cEg3T7brVfq6)
+   - [Script_nonparametric_kruskal_wallis](../scripts/10_nonparametric_kruskal_wallis.ipynb)
 
 ## Pruebas paramétricas
-- t de Student  
-- [Scrip para calcular ANOVA de una vía - 17](https://youtu.be/pCBKvoPNRzs)
+- [Calcular_ANOVA_de_dos_vías_17](https://youtu.be/pCBKvoPNRzs)
+   - [Script_inferential_statistics_two_anova](../scripts/11_inferential_statistics_two_anova.ipynb)
  
 
 # Semana 3
 ## Regresión lineal 
-- [Regresión_lineal_usando_python - 18](https://youtu.be/EYyBxGvu1AY) 
+- [Regresión_lineal_usando_python_18](https://youtu.be/EYyBxGvu1AY) 
+   - [Script_linear_regression](../scripts/12_linear_regression.ipynb)
 
 ## Matriz de Correlación
-- [Correlación_Spearman_usando_python - 19](https://youtu.be/VWQCudeG7lA)
+- [Correlación_Spearman_usando_python_19](https://youtu.be/VWQCudeG7lA)
+   - [Script_spearman_correlation](../scripts/13_spearman_correlation.ipynb)
+
 - [Matriz de correlacion Spearman usando Python - 20](https://youtu.be/Xxsvw-vn1ss)
+   - [Script_spearman_correlation_matriz](../scripts/14_spearman_correlation_matrix.ipynb)
 
 ## FA  
-## PCA  
+- [Script_factor_analysis](../scripts/15_factor_analysis.ipynb)
+
+## PCA 
+- [Script_pca_analysis](../scripts/16_pca_analysis.ipynb) 
+- [Script_cluster](../scripts/17_cluster.ipynb)
+- [Script_mdf_permanocva](../scripts/18_mdf_permanova.ipynb)
 
 # Semana 4
 ## K-means (Redes Neuronales)
@@ -107,4 +137,11 @@ Contenido del manual:
 # Semana 5
 ## Proyecto final  
 ## Evaluación
-## Material Suplementario
+
+
+
+# MATERIAL SUPLEMENTARIO
+
+- [Script_TS01_ShannonDiversity](../scripts/TS01_ShannonDiversity.ipynb)
+- [Script_TS02_Rank_Abundance](../scripts/TS02_Rank_Abundance.ipynb)
+

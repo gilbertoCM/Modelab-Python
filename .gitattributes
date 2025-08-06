@@ -1,1 +1,4 @@
-
+# Configuración básica para Jupyter Notebooks
+*.ipynb text eol=lf
+# Ignorar diferencias menores en notebooks
+*.ipynb diff

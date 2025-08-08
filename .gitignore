@@ -15,7 +15,6 @@ __pycache__/
 *.sqlite
 *.parquet
 *.feather
-*.png
 *.jpg
 *.jpeg
 *.gif

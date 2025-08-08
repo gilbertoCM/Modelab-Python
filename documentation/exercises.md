@@ -63,33 +63,33 @@ Create composite functions that evaluate the absolute value of a number
     - Save the results to an Excel file called "TA_DIC_Season_Areas.xlsx"
 
 
-### 07_plot_descriptive_statistics_matplotib
+### 06_plot_descriptive_statistics_matplotib
 
 Plot histogram of DIC and TA
 
 
-### 08_plot_descriptive_statistics_seaborn
+### 07_plot_descriptive_statistics_seaborn
 - How can you modify the units of the figures?  
 - Check the examples at https://seaborn.pydata.org/ and create your own figures. If possible, use your own data.
 
 
-### 09_normality_tests
+### 08_normality_tests
 - Respond to the following question: When is it appropriate to use the Kolmogorov-Smirnov test instead of the Shapiro-Wilk test?
 - Based on the previous answer, perform the appropriate test to assess normality in the DIC (Dissolved Inorganic Carbon) and Salinity datasets.
 
-### 10_NonParametric_Mann_whitney
+### 09_NonParametric_Mann_whitney
 Evaluate the Mann-Whitney U test for DIC and temperatura. Create boxplots and violin plots for these analyses.
 
 
-### 11_Nonparametric_Kruskall-Wallis
+### 10_Nonparametric_Kruskall-Wallis
 Perform Kruskal-Wallis test and plot a box plot for DIC and temperature data.
 
 
 ## Exercises Week 3
-### 13_Linear_regression
+### 12_Linear_regression
 Perform linear regressions of salinity vs temperature and dec vs salinity.
 
-### 14_spearman_correlation 
+### 13_spearman_correlation 
 Exercise: Create a function to compute the Pearson correlation
 
 

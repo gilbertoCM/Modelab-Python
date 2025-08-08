@@ -27,7 +27,7 @@ This course is the result of a collaborative effort. The following individuals h
 
 - **Odalys Rodríguez Barahona**  
 [odalyssr2@gmail.com](mailto:odalyssr2@gmail.com)
-[GitHub](https://github.com/Ody_Ro)
+[GitHub](https://github.com/Ody-Ro)
   - Editing of manuals and curriculum  
   - Video editing for course materials
   
